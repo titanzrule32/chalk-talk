@@ -1,0 +1,572 @@
+[
+  {
+    "id": "mlb-001",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "New York Yankees",
+    "city": "New York",
+    "state": "New York",
+    "lat": 40.8296,
+    "lng": -73.9262,
+    "conference": "American League",
+    "division": "AL East",
+    "logo_url": "/assets/logos/mlb/yankees.png",
+    "star_players": ["Aaron Judge", "Juan Soto"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Boston", "Philadelphia", "Baltimore", "Chicago", "Houston"],
+      "teams": ["Boston Red Sox", "Toronto Blue Jays", "Tampa Bay Rays"]
+    }
+  },
+  {
+    "id": "mlb-002",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Boston Red Sox",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "lat": 42.3467,
+    "lng": -71.0972,
+    "conference": "American League",
+    "division": "AL East",
+    "logo_url": "/assets/logos/mlb/red-sox.png",
+    "star_players": ["Rafael Devers", "Jarren Duran"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["New York", "Philadelphia", "Baltimore", "Chicago", "Detroit"],
+      "teams": ["New York Yankees", "Toronto Blue Jays", "Tampa Bay Rays"]
+    }
+  },
+  {
+    "id": "mlb-003",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Baltimore Orioles",
+    "city": "Baltimore",
+    "state": "Maryland",
+    "lat": 39.2838,
+    "lng": -76.6216,
+    "conference": "American League",
+    "division": "AL East",
+    "logo_url": "/assets/logos/mlb/orioles.png",
+    "star_players": ["Gunnar Henderson", "Adley Rutschman"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Washington", "Philadelphia", "New York", "Boston", "Pittsburgh"],
+      "teams": ["New York Yankees", "Boston Red Sox", "Toronto Blue Jays"]
+    }
+  },
+  {
+    "id": "mlb-004",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Tampa Bay Rays",
+    "city": "St. Petersburg",
+    "state": "Florida",
+    "lat": 27.7682,
+    "lng": -82.6534,
+    "conference": "American League",
+    "division": "AL East",
+    "logo_url": "/assets/logos/mlb/rays.png",
+    "star_players": ["Yandy Diaz", "Randy Arozarena"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Miami", "Orlando", "Atlanta", "Jacksonville", "Charlotte"],
+      "teams": ["New York Yankees", "Boston Red Sox", "Baltimore Orioles"]
+    }
+  },
+  {
+    "id": "mlb-005",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Toronto Blue Jays",
+    "city": "Toronto",
+    "state": "Ontario",
+    "lat": 43.6414,
+    "lng": -79.3894,
+    "conference": "American League",
+    "division": "AL East",
+    "logo_url": "/assets/logos/mlb/blue-jays.png",
+    "star_players": ["Vladimir Guerrero Jr.", "Bo Bichette"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Montreal", "Vancouver", "Boston", "New York", "Detroit"],
+      "teams": ["New York Yankees", "Boston Red Sox", "Baltimore Orioles"]
+    }
+  },
+  {
+    "id": "mlb-006",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Chicago White Sox",
+    "city": "Chicago",
+    "state": "Illinois",
+    "lat": 41.8299,
+    "lng": -87.6338,
+    "conference": "American League",
+    "division": "AL Central",
+    "logo_url": "/assets/logos/mlb/white-sox.png",
+    "star_players": ["Luis Robert Jr.", "Garrett Crochet"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Detroit", "Milwaukee", "Minneapolis", "St. Louis", "Kansas City"],
+      "teams": ["Cleveland Guardians", "Detroit Tigers", "Minnesota Twins"]
+    }
+  },
+  {
+    "id": "mlb-007",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Cleveland Guardians",
+    "city": "Cleveland",
+    "state": "Ohio",
+    "lat": 41.4962,
+    "lng": -81.6852,
+    "conference": "American League",
+    "division": "AL Central",
+    "logo_url": "/assets/logos/mlb/guardians.png",
+    "star_players": ["Jose Ramirez", "Steven Kwan"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Cincinnati", "Detroit", "Pittsburgh", "Chicago", "Columbus"],
+      "teams": ["Chicago White Sox", "Detroit Tigers", "Minnesota Twins"]
+    }
+  },
+  {
+    "id": "mlb-008",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Detroit Tigers",
+    "city": "Detroit",
+    "state": "Michigan",
+    "lat": 42.3390,
+    "lng": -83.0485,
+    "conference": "American League",
+    "division": "AL Central",
+    "logo_url": "/assets/logos/mlb/tigers.png",
+    "star_players": ["Riley Greene", "Tarik Skubal"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Cleveland", "Chicago", "Milwaukee", "Minneapolis", "Cincinnati"],
+      "teams": ["Chicago White Sox", "Cleveland Guardians", "Minnesota Twins"]
+    }
+  },
+  {
+    "id": "mlb-009",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Kansas City Royals",
+    "city": "Kansas City",
+    "state": "Missouri",
+    "lat": 39.0517,
+    "lng": -94.4803,
+    "conference": "American League",
+    "division": "AL Central",
+    "logo_url": "/assets/logos/mlb/royals.png",
+    "star_players": ["Bobby Witt Jr.", "Salvador Perez"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["St. Louis", "Chicago", "Minneapolis", "Omaha", "Denver"],
+      "teams": ["Chicago White Sox", "Cleveland Guardians", "Detroit Tigers"]
+    }
+  },
+  {
+    "id": "mlb-010",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Minnesota Twins",
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "lat": 44.9818,
+    "lng": -93.2775,
+    "conference": "American League",
+    "division": "AL Central",
+    "logo_url": "/assets/logos/mlb/twins.png",
+    "star_players": ["Carlos Correa", "Byron Buxton"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Milwaukee", "Chicago", "Detroit", "Kansas City", "St. Louis"],
+      "teams": ["Chicago White Sox", "Cleveland Guardians", "Kansas City Royals"]
+    }
+  },
+  {
+    "id": "mlb-011",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Houston Astros",
+    "city": "Houston",
+    "state": "Texas",
+    "lat": 29.7573,
+    "lng": -95.3555,
+    "conference": "American League",
+    "division": "AL West",
+    "logo_url": "/assets/logos/mlb/astros.png",
+    "star_players": ["Yordan Alvarez", "Kyle Tucker"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Dallas", "San Antonio", "Austin", "Arlington", "Oklahoma City"],
+      "teams": ["Texas Rangers", "Seattle Mariners", "Los Angeles Angels"]
+    }
+  },
+  {
+    "id": "mlb-012",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Los Angeles Angels",
+    "city": "Anaheim",
+    "state": "California",
+    "lat": 33.8003,
+    "lng": -117.8827,
+    "conference": "American League",
+    "division": "AL West",
+    "logo_url": "/assets/logos/mlb/angels.png",
+    "star_players": ["Mike Trout", "Logan O'Hoppe"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Los Angeles", "San Diego", "San Francisco", "Phoenix", "Las Vegas"],
+      "teams": ["Houston Astros", "Texas Rangers", "Seattle Mariners"]
+    }
+  },
+  {
+    "id": "mlb-013",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Oakland Athletics",
+    "city": "Oakland",
+    "state": "California",
+    "lat": 37.7516,
+    "lng": -122.2005,
+    "conference": "American League",
+    "division": "AL West",
+    "logo_url": "/assets/logos/mlb/athletics.png",
+    "star_players": ["Brent Rooker", "JJ Bleday"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["San Francisco", "San Jose", "Sacramento", "Los Angeles", "Seattle"],
+      "teams": ["Houston Astros", "Texas Rangers", "Los Angeles Angels"]
+    }
+  },
+  {
+    "id": "mlb-014",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Seattle Mariners",
+    "city": "Seattle",
+    "state": "Washington",
+    "lat": 47.5914,
+    "lng": -122.3316,
+    "conference": "American League",
+    "division": "AL West",
+    "logo_url": "/assets/logos/mlb/mariners.png",
+    "star_players": ["Julio Rodriguez", "Logan Gilbert"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Portland", "San Francisco", "Vancouver", "Denver", "Los Angeles"],
+      "teams": ["Houston Astros", "Texas Rangers", "Los Angeles Angels"]
+    }
+  },
+  {
+    "id": "mlb-015",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Texas Rangers",
+    "city": "Arlington",
+    "state": "Texas",
+    "lat": 32.7512,
+    "lng": -97.0832,
+    "conference": "American League",
+    "division": "AL West",
+    "logo_url": "/assets/logos/mlb/rangers.png",
+    "star_players": ["Corey Seager", "Marcus Semien"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Houston", "Dallas", "San Antonio", "Austin", "Oklahoma City"],
+      "teams": ["Houston Astros", "Seattle Mariners", "Los Angeles Angels"]
+    }
+  },
+  {
+    "id": "mlb-016",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Atlanta Braves",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "lat": 33.8911,
+    "lng": -84.4684,
+    "conference": "National League",
+    "division": "NL East",
+    "logo_url": "/assets/logos/mlb/braves.png",
+    "star_players": ["Ronald Acuna Jr.", "Matt Olson"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Charlotte", "Nashville", "Jacksonville", "Miami", "Tampa"],
+      "teams": ["Philadelphia Phillies", "New York Mets", "Miami Marlins"]
+    }
+  },
+  {
+    "id": "mlb-017",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Miami Marlins",
+    "city": "Miami",
+    "state": "Florida",
+    "lat": 25.7781,
+    "lng": -80.2196,
+    "conference": "National League",
+    "division": "NL East",
+    "logo_url": "/assets/logos/mlb/marlins.png",
+    "star_players": ["Jazz Chisholm Jr.", "Sandy Alcantara"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Tampa", "Orlando", "Atlanta", "Jacksonville", "Fort Lauderdale"],
+      "teams": ["Atlanta Braves", "Philadelphia Phillies", "New York Mets"]
+    }
+  },
+  {
+    "id": "mlb-018",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "New York Mets",
+    "city": "New York",
+    "state": "New York",
+    "lat": 40.7571,
+    "lng": -73.8458,
+    "conference": "National League",
+    "division": "NL East",
+    "logo_url": "/assets/logos/mlb/mets.png",
+    "star_players": ["Francisco Lindor", "Pete Alonso"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Philadelphia", "Boston", "Baltimore", "Washington", "Newark"],
+      "teams": ["Atlanta Braves", "Philadelphia Phillies", "Washington Nationals"]
+    }
+  },
+  {
+    "id": "mlb-019",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Philadelphia Phillies",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "lat": 39.9061,
+    "lng": -75.1665,
+    "conference": "National League",
+    "division": "NL East",
+    "logo_url": "/assets/logos/mlb/phillies.png",
+    "star_players": ["Bryce Harper", "Trea Turner"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["New York", "Baltimore", "Washington", "Pittsburgh", "Boston"],
+      "teams": ["Atlanta Braves", "New York Mets", "Miami Marlins"]
+    }
+  },
+  {
+    "id": "mlb-020",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Washington Nationals",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "lat": 38.8730,
+    "lng": -77.0074,
+    "conference": "National League",
+    "division": "NL East",
+    "logo_url": "/assets/logos/mlb/nationals.png",
+    "star_players": ["CJ Abrams", "MacKenzie Gore"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Baltimore", "Philadelphia", "Richmond", "Charlotte", "New York"],
+      "teams": ["Atlanta Braves", "Philadelphia Phillies", "New York Mets"]
+    }
+  },
+  {
+    "id": "mlb-021",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Chicago Cubs",
+    "city": "Chicago",
+    "state": "Illinois",
+    "lat": 41.9484,
+    "lng": -87.6553,
+    "conference": "National League",
+    "division": "NL Central",
+    "logo_url": "/assets/logos/mlb/cubs.png",
+    "star_players": ["Dansby Swanson", "Nico Hoerner"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Milwaukee", "St. Louis", "Detroit", "Minneapolis", "Cincinnati"],
+      "teams": ["Milwaukee Brewers", "St. Louis Cardinals", "Cincinnati Reds"]
+    }
+  },
+  {
+    "id": "mlb-022",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Cincinnati Reds",
+    "city": "Cincinnati",
+    "state": "Ohio",
+    "lat": 39.0975,
+    "lng": -84.5080,
+    "conference": "National League",
+    "division": "NL Central",
+    "logo_url": "/assets/logos/mlb/reds.png",
+    "star_players": ["Elly De La Cruz", "Matt McLain"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Cleveland", "Columbus", "Pittsburgh", "Indianapolis", "Louisville"],
+      "teams": ["Chicago Cubs", "Milwaukee Brewers", "St. Louis Cardinals"]
+    }
+  },
+  {
+    "id": "mlb-023",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Milwaukee Brewers",
+    "city": "Milwaukee",
+    "state": "Wisconsin",
+    "lat": 43.0280,
+    "lng": -87.9712,
+    "conference": "National League",
+    "division": "NL Central",
+    "logo_url": "/assets/logos/mlb/brewers.png",
+    "star_players": ["Christian Yelich", "Willy Adames"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Chicago", "Minneapolis", "Detroit", "Madison", "St. Louis"],
+      "teams": ["Chicago Cubs", "St. Louis Cardinals", "Cincinnati Reds"]
+    }
+  },
+  {
+    "id": "mlb-024",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Pittsburgh Pirates",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "lat": 40.4469,
+    "lng": -80.0057,
+    "conference": "National League",
+    "division": "NL Central",
+    "logo_url": "/assets/logos/mlb/pirates.png",
+    "star_players": ["Ke'Bryan Hayes", "Oneil Cruz"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Philadelphia", "Cleveland", "Cincinnati", "Baltimore", "Columbus"],
+      "teams": ["Chicago Cubs", "Milwaukee Brewers", "St. Louis Cardinals"]
+    }
+  },
+  {
+    "id": "mlb-025",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "St. Louis Cardinals",
+    "city": "St. Louis",
+    "state": "Missouri",
+    "lat": 38.6226,
+    "lng": -90.1928,
+    "conference": "National League",
+    "division": "NL Central",
+    "logo_url": "/assets/logos/mlb/cardinals.png",
+    "star_players": ["Nolan Arenado", "Paul Goldschmidt"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Kansas City", "Chicago", "Cincinnati", "Indianapolis", "Memphis"],
+      "teams": ["Chicago Cubs", "Milwaukee Brewers", "Cincinnati Reds"]
+    }
+  },
+  {
+    "id": "mlb-026",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Arizona Diamondbacks",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "lat": 33.4455,
+    "lng": -112.0667,
+    "conference": "National League",
+    "division": "NL West",
+    "logo_url": "/assets/logos/mlb/diamondbacks.png",
+    "star_players": ["Corbin Carroll", "Ketel Marte"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Tucson", "Las Vegas", "Denver", "Albuquerque", "Los Angeles"],
+      "teams": ["Los Angeles Dodgers", "San Diego Padres", "San Francisco Giants"]
+    }
+  },
+  {
+    "id": "mlb-027",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Colorado Rockies",
+    "city": "Denver",
+    "state": "Colorado",
+    "lat": 39.7559,
+    "lng": -104.9942,
+    "conference": "National League",
+    "division": "NL West",
+    "logo_url": "/assets/logos/mlb/rockies.png",
+    "star_players": ["Ezequiel Tovar", "Brenton Doyle"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Phoenix", "Salt Lake City", "Kansas City", "Albuquerque", "Las Vegas"],
+      "teams": ["Los Angeles Dodgers", "San Diego Padres", "Arizona Diamondbacks"]
+    }
+  },
+  {
+    "id": "mlb-028",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "Los Angeles Dodgers",
+    "city": "Los Angeles",
+    "state": "California",
+    "lat": 34.0739,
+    "lng": -118.2400,
+    "conference": "National League",
+    "division": "NL West",
+    "logo_url": "/assets/logos/mlb/dodgers.png",
+    "star_players": ["Mookie Betts", "Freddie Freeman"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["San Diego", "San Francisco", "Anaheim", "Phoenix", "Las Vegas"],
+      "teams": ["San Diego Padres", "San Francisco Giants", "Arizona Diamondbacks"]
+    }
+  },
+  {
+    "id": "mlb-029",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "San Diego Padres",
+    "city": "San Diego",
+    "state": "California",
+    "lat": 32.7076,
+    "lng": -117.1570,
+    "conference": "National League",
+    "division": "NL West",
+    "logo_url": "/assets/logos/mlb/padres.png",
+    "star_players": ["Fernando Tatis Jr.", "Manny Machado"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Los Angeles", "Phoenix", "Anaheim", "San Francisco", "Las Vegas"],
+      "teams": ["Los Angeles Dodgers", "San Francisco Giants", "Arizona Diamondbacks"]
+    }
+  },
+  {
+    "id": "mlb-030",
+    "sport": "baseball",
+    "league": "MLB",
+    "team_name": "San Francisco Giants",
+    "city": "San Francisco",
+    "state": "California",
+    "lat": 37.7786,
+    "lng": -122.3893,
+    "conference": "National League",
+    "division": "NL West",
+    "logo_url": "/assets/logos/mlb/giants.png",
+    "star_players": ["Matt Chapman", "Logan Webb"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Oakland", "San Jose", "Sacramento", "Los Angeles", "Seattle"],
+      "teams": ["Los Angeles Dodgers", "San Diego Padres", "Arizona Diamondbacks"]
+    }
+  }
+]

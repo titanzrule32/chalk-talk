@@ -1,0 +1,572 @@
+[
+  {
+    "id": "nba-001",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Boston Celtics",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "lat": 42.3662,
+    "lng": -71.0621,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nba/celtics.png",
+    "star_players": ["Jayson Tatum", "Jaylen Brown"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["New York", "Philadelphia", "Chicago", "Miami", "Dallas"],
+      "teams": ["Brooklyn Nets", "New York Knicks", "Philadelphia 76ers"]
+    }
+  },
+  {
+    "id": "nba-002",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Brooklyn Nets",
+    "city": "Brooklyn",
+    "state": "New York",
+    "lat": 40.6826,
+    "lng": -73.9754,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nba/nets.png",
+    "star_players": ["Mikal Bridges", "Cameron Johnson"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Boston", "Philadelphia", "Toronto", "Miami", "Chicago"],
+      "teams": ["Boston Celtics", "New York Knicks", "Toronto Raptors"]
+    }
+  },
+  {
+    "id": "nba-003",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "New York Knicks",
+    "city": "New York",
+    "state": "New York",
+    "lat": 40.7505,
+    "lng": -73.9934,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nba/knicks.png",
+    "star_players": ["Jalen Brunson", "Julius Randle"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Boston", "Philadelphia", "Toronto", "Chicago", "Miami"],
+      "teams": ["Boston Celtics", "Brooklyn Nets", "Philadelphia 76ers"]
+    }
+  },
+  {
+    "id": "nba-004",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Philadelphia 76ers",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "lat": 39.9012,
+    "lng": -75.1720,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nba/76ers.png",
+    "star_players": ["Joel Embiid", "Tyrese Maxey"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["New York", "Boston", "Washington", "Chicago", "Toronto"],
+      "teams": ["Boston Celtics", "Brooklyn Nets", "New York Knicks"]
+    }
+  },
+  {
+    "id": "nba-005",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Toronto Raptors",
+    "city": "Toronto",
+    "state": "Ontario",
+    "lat": 43.6435,
+    "lng": -79.3791,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nba/raptors.png",
+    "star_players": ["Scottie Barnes", "RJ Barrett"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Boston", "New York", "Montreal", "Chicago", "Philadelphia"],
+      "teams": ["Boston Celtics", "Brooklyn Nets", "New York Knicks"]
+    }
+  },
+  {
+    "id": "nba-006",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Chicago Bulls",
+    "city": "Chicago",
+    "state": "Illinois",
+    "lat": 41.8807,
+    "lng": -87.6742,
+    "conference": "Eastern",
+    "division": "Central",
+    "logo_url": "/assets/logos/nba/bulls.png",
+    "star_players": ["Zach LaVine", "Coby White"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Milwaukee", "Detroit", "Indianapolis", "Cleveland", "New York"],
+      "teams": ["Cleveland Cavaliers", "Detroit Pistons", "Milwaukee Bucks"]
+    }
+  },
+  {
+    "id": "nba-007",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Cleveland Cavaliers",
+    "city": "Cleveland",
+    "state": "Ohio",
+    "lat": 41.4965,
+    "lng": -81.6882,
+    "conference": "Eastern",
+    "division": "Central",
+    "logo_url": "/assets/logos/nba/cavaliers.png",
+    "star_players": ["Donovan Mitchell", "Darius Garland"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Chicago", "Detroit", "Indianapolis", "Milwaukee", "Philadelphia"],
+      "teams": ["Chicago Bulls", "Detroit Pistons", "Indiana Pacers"]
+    }
+  },
+  {
+    "id": "nba-008",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Detroit Pistons",
+    "city": "Detroit",
+    "state": "Michigan",
+    "lat": 42.3410,
+    "lng": -83.0553,
+    "conference": "Eastern",
+    "division": "Central",
+    "logo_url": "/assets/logos/nba/pistons.png",
+    "star_players": ["Cade Cunningham", "Jaden Ivey"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Chicago", "Cleveland", "Indianapolis", "Milwaukee", "Toronto"],
+      "teams": ["Chicago Bulls", "Cleveland Cavaliers", "Indiana Pacers"]
+    }
+  },
+  {
+    "id": "nba-009",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Indiana Pacers",
+    "city": "Indianapolis",
+    "state": "Indiana",
+    "lat": 39.7640,
+    "lng": -86.1555,
+    "conference": "Eastern",
+    "division": "Central",
+    "logo_url": "/assets/logos/nba/pacers.png",
+    "star_players": ["Tyrese Haliburton", "Pascal Siakam"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Chicago", "Cleveland", "Detroit", "Milwaukee", "Cincinnati"],
+      "teams": ["Chicago Bulls", "Cleveland Cavaliers", "Milwaukee Bucks"]
+    }
+  },
+  {
+    "id": "nba-010",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Milwaukee Bucks",
+    "city": "Milwaukee",
+    "state": "Wisconsin",
+    "lat": 43.0451,
+    "lng": -87.9174,
+    "conference": "Eastern",
+    "division": "Central",
+    "logo_url": "/assets/logos/nba/bucks.png",
+    "star_players": ["Giannis Antetokounmpo", "Damian Lillard"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Chicago", "Detroit", "Cleveland", "Indianapolis", "Minneapolis"],
+      "teams": ["Chicago Bulls", "Cleveland Cavaliers", "Indiana Pacers"]
+    }
+  },
+  {
+    "id": "nba-011",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Atlanta Hawks",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "lat": 33.7573,
+    "lng": -84.3963,
+    "conference": "Eastern",
+    "division": "Southeast",
+    "logo_url": "/assets/logos/nba/hawks.png",
+    "star_players": ["Trae Young", "Dejounte Murray"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Miami", "Charlotte", "Orlando", "Washington", "Dallas"],
+      "teams": ["Charlotte Hornets", "Miami Heat", "Orlando Magic"]
+    }
+  },
+  {
+    "id": "nba-012",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Charlotte Hornets",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "lat": 35.2251,
+    "lng": -80.8392,
+    "conference": "Eastern",
+    "division": "Southeast",
+    "logo_url": "/assets/logos/nba/hornets.png",
+    "star_players": ["LaMelo Ball", "Brandon Miller"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Atlanta", "Miami", "Washington", "Orlando", "Nashville"],
+      "teams": ["Atlanta Hawks", "Miami Heat", "Washington Wizards"]
+    }
+  },
+  {
+    "id": "nba-013",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Miami Heat",
+    "city": "Miami",
+    "state": "Florida",
+    "lat": 25.7814,
+    "lng": -80.1870,
+    "conference": "Eastern",
+    "division": "Southeast",
+    "logo_url": "/assets/logos/nba/heat.png",
+    "star_players": ["Jimmy Butler", "Bam Adebayo"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Orlando", "Atlanta", "Charlotte", "Tampa", "New Orleans"],
+      "teams": ["Atlanta Hawks", "Charlotte Hornets", "Orlando Magic"]
+    }
+  },
+  {
+    "id": "nba-014",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Orlando Magic",
+    "city": "Orlando",
+    "state": "Florida",
+    "lat": 28.5392,
+    "lng": -81.3839,
+    "conference": "Eastern",
+    "division": "Southeast",
+    "logo_url": "/assets/logos/nba/magic.png",
+    "star_players": ["Paolo Banchero", "Franz Wagner"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Miami", "Atlanta", "Charlotte", "Tampa", "Jacksonville"],
+      "teams": ["Atlanta Hawks", "Charlotte Hornets", "Miami Heat"]
+    }
+  },
+  {
+    "id": "nba-015",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Washington Wizards",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "lat": 38.8981,
+    "lng": -77.0209,
+    "conference": "Eastern",
+    "division": "Southeast",
+    "logo_url": "/assets/logos/nba/wizards.png",
+    "star_players": ["Kyle Kuzma", "Jordan Poole"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Philadelphia", "Charlotte", "Atlanta", "Baltimore", "New York"],
+      "teams": ["Atlanta Hawks", "Charlotte Hornets", "Miami Heat"]
+    }
+  },
+  {
+    "id": "nba-016",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Denver Nuggets",
+    "city": "Denver",
+    "state": "Colorado",
+    "lat": 39.7487,
+    "lng": -105.0077,
+    "conference": "Western",
+    "division": "Northwest",
+    "logo_url": "/assets/logos/nba/nuggets.png",
+    "star_players": ["Nikola Jokic", "Jamal Murray"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Salt Lake City", "Portland", "Minneapolis", "Oklahoma City", "Phoenix"],
+      "teams": ["Minnesota Timberwolves", "Oklahoma City Thunder", "Utah Jazz"]
+    }
+  },
+  {
+    "id": "nba-017",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Minnesota Timberwolves",
+    "city": "Minneapolis",
+    "state": "Minnesota",
+    "lat": 44.9795,
+    "lng": -93.2761,
+    "conference": "Western",
+    "division": "Northwest",
+    "logo_url": "/assets/logos/nba/timberwolves.png",
+    "star_players": ["Anthony Edwards", "Karl-Anthony Towns"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Denver", "Portland", "Oklahoma City", "Milwaukee", "Salt Lake City"],
+      "teams": ["Denver Nuggets", "Oklahoma City Thunder", "Portland Trail Blazers"]
+    }
+  },
+  {
+    "id": "nba-018",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Oklahoma City Thunder",
+    "city": "Oklahoma City",
+    "state": "Oklahoma",
+    "lat": 35.4634,
+    "lng": -97.5151,
+    "conference": "Western",
+    "division": "Northwest",
+    "logo_url": "/assets/logos/nba/thunder.png",
+    "star_players": ["Shai Gilgeous-Alexander", "Chet Holmgren"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Dallas", "Denver", "Minneapolis", "Houston", "San Antonio"],
+      "teams": ["Denver Nuggets", "Minnesota Timberwolves", "Portland Trail Blazers"]
+    }
+  },
+  {
+    "id": "nba-019",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Portland Trail Blazers",
+    "city": "Portland",
+    "state": "Oregon",
+    "lat": 45.5316,
+    "lng": -122.6668,
+    "conference": "Western",
+    "division": "Northwest",
+    "logo_url": "/assets/logos/nba/trail-blazers.png",
+    "star_players": ["Anfernee Simons", "Scoot Henderson"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Seattle", "Denver", "Salt Lake City", "Sacramento", "Minneapolis"],
+      "teams": ["Denver Nuggets", "Minnesota Timberwolves", "Utah Jazz"]
+    }
+  },
+  {
+    "id": "nba-020",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Utah Jazz",
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "lat": 40.7683,
+    "lng": -111.9011,
+    "conference": "Western",
+    "division": "Northwest",
+    "logo_url": "/assets/logos/nba/jazz.png",
+    "star_players": ["Lauri Markkanen", "Collin Sexton"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Denver", "Portland", "Phoenix", "Las Vegas", "Minneapolis"],
+      "teams": ["Denver Nuggets", "Minnesota Timberwolves", "Oklahoma City Thunder"]
+    }
+  },
+  {
+    "id": "nba-021",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Golden State Warriors",
+    "city": "San Francisco",
+    "state": "California",
+    "lat": 37.7680,
+    "lng": -122.3879,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nba/warriors.png",
+    "star_players": ["Stephen Curry", "Andrew Wiggins"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Los Angeles", "Sacramento", "Phoenix", "Portland", "San Diego"],
+      "teams": ["LA Clippers", "Los Angeles Lakers", "Sacramento Kings"]
+    }
+  },
+  {
+    "id": "nba-022",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "LA Clippers",
+    "city": "Los Angeles",
+    "state": "California",
+    "lat": 33.4255,
+    "lng": -117.5981,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nba/clippers.png",
+    "star_players": ["Kawhi Leonard", "James Harden"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["San Francisco", "Sacramento", "Phoenix", "San Diego", "Portland"],
+      "teams": ["Golden State Warriors", "Los Angeles Lakers", "Phoenix Suns"]
+    }
+  },
+  {
+    "id": "nba-023",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Los Angeles Lakers",
+    "city": "Los Angeles",
+    "state": "California",
+    "lat": 34.0430,
+    "lng": -118.2673,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nba/lakers.png",
+    "star_players": ["LeBron James", "Anthony Davis"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["San Francisco", "Sacramento", "Phoenix", "San Diego", "Portland"],
+      "teams": ["Golden State Warriors", "LA Clippers", "Sacramento Kings"]
+    }
+  },
+  {
+    "id": "nba-024",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Phoenix Suns",
+    "city": "Phoenix",
+    "state": "Arizona",
+    "lat": 33.4457,
+    "lng": -112.0712,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nba/suns.png",
+    "star_players": ["Kevin Durant", "Devin Booker"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Los Angeles", "San Francisco", "Denver", "Las Vegas", "Sacramento"],
+      "teams": ["Golden State Warriors", "LA Clippers", "Los Angeles Lakers"]
+    }
+  },
+  {
+    "id": "nba-025",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Sacramento Kings",
+    "city": "Sacramento",
+    "state": "California",
+    "lat": 38.5802,
+    "lng": -121.4997,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nba/kings.png",
+    "star_players": ["De'Aaron Fox", "Domantas Sabonis"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["San Francisco", "Los Angeles", "Portland", "Phoenix", "San Diego"],
+      "teams": ["Golden State Warriors", "LA Clippers", "Los Angeles Lakers"]
+    }
+  },
+  {
+    "id": "nba-026",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Dallas Mavericks",
+    "city": "Dallas",
+    "state": "Texas",
+    "lat": 32.7905,
+    "lng": -96.8103,
+    "conference": "Western",
+    "division": "Southwest",
+    "logo_url": "/assets/logos/nba/mavericks.png",
+    "star_players": ["Luka Doncic", "Kyrie Irving"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Houston", "San Antonio", "Memphis", "New Orleans", "Oklahoma City"],
+      "teams": ["Houston Rockets", "Memphis Grizzlies", "San Antonio Spurs"]
+    }
+  },
+  {
+    "id": "nba-027",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Houston Rockets",
+    "city": "Houston",
+    "state": "Texas",
+    "lat": 29.7508,
+    "lng": -95.3621,
+    "conference": "Western",
+    "division": "Southwest",
+    "logo_url": "/assets/logos/nba/rockets.png",
+    "star_players": ["Jalen Green", "Alperen Sengun"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Dallas", "San Antonio", "New Orleans", "Memphis", "Oklahoma City"],
+      "teams": ["Dallas Mavericks", "Memphis Grizzlies", "New Orleans Pelicans"]
+    }
+  },
+  {
+    "id": "nba-028",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "Memphis Grizzlies",
+    "city": "Memphis",
+    "state": "Tennessee",
+    "lat": 35.1382,
+    "lng": -90.0506,
+    "conference": "Western",
+    "division": "Southwest",
+    "logo_url": "/assets/logos/nba/grizzlies.png",
+    "star_players": ["Ja Morant", "Desmond Bane"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Dallas", "Houston", "Nashville", "New Orleans", "San Antonio"],
+      "teams": ["Dallas Mavericks", "Houston Rockets", "New Orleans Pelicans"]
+    }
+  },
+  {
+    "id": "nba-029",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "New Orleans Pelicans",
+    "city": "New Orleans",
+    "state": "Louisiana",
+    "lat": 29.9490,
+    "lng": -90.0821,
+    "conference": "Western",
+    "division": "Southwest",
+    "logo_url": "/assets/logos/nba/pelicans.png",
+    "star_players": ["Zion Williamson", "Brandon Ingram"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Houston", "Dallas", "Memphis", "San Antonio", "Atlanta"],
+      "teams": ["Dallas Mavericks", "Houston Rockets", "Memphis Grizzlies"]
+    }
+  },
+  {
+    "id": "nba-030",
+    "sport": "basketball",
+    "league": "NBA",
+    "team_name": "San Antonio Spurs",
+    "city": "San Antonio",
+    "state": "Texas",
+    "lat": 29.4270,
+    "lng": -98.4375,
+    "conference": "Western",
+    "division": "Southwest",
+    "logo_url": "/assets/logos/nba/spurs.png",
+    "star_players": ["Victor Wembanyama", "Devin Vassell"],
+    "tier": "rookie",
+    "distractors": {
+      "cities": ["Dallas", "Houston", "Austin", "New Orleans", "Memphis"],
+      "teams": ["Dallas Mavericks", "Houston Rockets", "Memphis Grizzlies"]
+    }
+  }
+]
