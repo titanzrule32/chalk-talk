@@ -10,7 +10,7 @@
     "lng": -73.9262,
     "conference": "American League",
     "division": "AL East",
-    "logo_url": "/assets/logos/mlb/yankees.png",
+    "logo_url": "/assets/logos/mlb/new-york-yankees.png",
     "star_players": ["Aaron Judge", "Juan Soto"],
     "tier": "rookie",
     "distractors": {
@@ -29,7 +29,7 @@
     "lng": -71.0972,
     "conference": "American League",
     "division": "AL East",
-    "logo_url": "/assets/logos/mlb/red-sox.png",
+    "logo_url": "/assets/logos/mlb/boston-red-sox.png",
     "star_players": ["Rafael Devers", "Jarren Duran"],
     "tier": "rookie",
     "distractors": {
@@ -48,7 +48,7 @@
     "lng": -76.6216,
     "conference": "American League",
     "division": "AL East",
-    "logo_url": "/assets/logos/mlb/orioles.png",
+    "logo_url": "/assets/logos/mlb/baltimore-orioles.png",
     "star_players": ["Gunnar Henderson", "Adley Rutschman"],
     "tier": "rookie",
     "distractors": {
@@ -67,7 +67,7 @@
     "lng": -82.6534,
     "conference": "American League",
     "division": "AL East",
-    "logo_url": "/assets/logos/mlb/rays.png",
+    "logo_url": "/assets/logos/mlb/tampa-bay-rays.png",
     "star_players": ["Yandy Diaz", "Randy Arozarena"],
     "tier": "rookie",
     "distractors": {
@@ -86,7 +86,7 @@
     "lng": -79.3894,
     "conference": "American League",
     "division": "AL East",
-    "logo_url": "/assets/logos/mlb/blue-jays.png",
+    "logo_url": "/assets/logos/mlb/toronto-blue-jays.png",
     "star_players": ["Vladimir Guerrero Jr.", "Bo Bichette"],
     "tier": "rookie",
     "distractors": {
@@ -105,7 +105,7 @@
     "lng": -87.6338,
     "conference": "American League",
     "division": "AL Central",
-    "logo_url": "/assets/logos/mlb/white-sox.png",
+    "logo_url": "/assets/logos/mlb/chicago-white-sox.png",
     "star_players": ["Luis Robert Jr.", "Garrett Crochet"],
     "tier": "rookie",
     "distractors": {
@@ -124,7 +124,7 @@
     "lng": -81.6852,
     "conference": "American League",
     "division": "AL Central",
-    "logo_url": "/assets/logos/mlb/guardians.png",
+    "logo_url": "/assets/logos/mlb/cleveland-guardians.png",
     "star_players": ["Jose Ramirez", "Steven Kwan"],
     "tier": "rookie",
     "distractors": {
@@ -143,7 +143,7 @@
     "lng": -83.0485,
     "conference": "American League",
     "division": "AL Central",
-    "logo_url": "/assets/logos/mlb/tigers.png",
+    "logo_url": "/assets/logos/mlb/detroit-tigers.png",
     "star_players": ["Riley Greene", "Tarik Skubal"],
     "tier": "rookie",
     "distractors": {
@@ -162,7 +162,7 @@
     "lng": -94.4803,
     "conference": "American League",
     "division": "AL Central",
-    "logo_url": "/assets/logos/mlb/royals.png",
+    "logo_url": "/assets/logos/mlb/kansas-city-royals.png",
     "star_players": ["Bobby Witt Jr.", "Salvador Perez"],
     "tier": "rookie",
     "distractors": {
@@ -181,7 +181,7 @@
     "lng": -93.2775,
     "conference": "American League",
     "division": "AL Central",
-    "logo_url": "/assets/logos/mlb/twins.png",
+    "logo_url": "/assets/logos/mlb/minnesota-twins.png",
     "star_players": ["Carlos Correa", "Byron Buxton"],
     "tier": "rookie",
     "distractors": {
@@ -200,7 +200,7 @@
     "lng": -95.3555,
     "conference": "American League",
     "division": "AL West",
-    "logo_url": "/assets/logos/mlb/astros.png",
+    "logo_url": "/assets/logos/mlb/houston-astros.png",
     "star_players": ["Yordan Alvarez", "Kyle Tucker"],
     "tier": "rookie",
     "distractors": {
@@ -219,7 +219,7 @@
     "lng": -117.8827,
     "conference": "American League",
     "division": "AL West",
-    "logo_url": "/assets/logos/mlb/angels.png",
+    "logo_url": "/assets/logos/mlb/los-angeles-angels.png",
     "star_players": ["Mike Trout", "Logan O'Hoppe"],
     "tier": "rookie",
     "distractors": {
@@ -257,7 +257,7 @@
     "lng": -122.3316,
     "conference": "American League",
     "division": "AL West",
-    "logo_url": "/assets/logos/mlb/mariners.png",
+    "logo_url": "/assets/logos/mlb/seattle-mariners.png",
     "star_players": ["Julio Rodriguez", "Logan Gilbert"],
     "tier": "rookie",
     "distractors": {
@@ -276,7 +276,7 @@
     "lng": -97.0832,
     "conference": "American League",
     "division": "AL West",
-    "logo_url": "/assets/logos/mlb/rangers.png",
+    "logo_url": "/assets/logos/mlb/texas-rangers.png",
     "star_players": ["Corey Seager", "Marcus Semien"],
     "tier": "rookie",
     "distractors": {
@@ -295,7 +295,7 @@
     "lng": -84.4684,
     "conference": "National League",
     "division": "NL East",
-    "logo_url": "/assets/logos/mlb/braves.png",
+    "logo_url": "/assets/logos/mlb/atlanta-braves.png",
     "star_players": ["Ronald Acuna Jr.", "Matt Olson"],
     "tier": "rookie",
     "distractors": {
@@ -314,7 +314,7 @@
     "lng": -80.2196,
     "conference": "National League",
     "division": "NL East",
-    "logo_url": "/assets/logos/mlb/marlins.png",
+    "logo_url": "/assets/logos/mlb/miami-marlins.png",
     "star_players": ["Jazz Chisholm Jr.", "Sandy Alcantara"],
     "tier": "rookie",
     "distractors": {
@@ -333,7 +333,7 @@
     "lng": -73.8458,
     "conference": "National League",
     "division": "NL East",
-    "logo_url": "/assets/logos/mlb/mets.png",
+    "logo_url": "/assets/logos/mlb/new-york-mets.png",
     "star_players": ["Francisco Lindor", "Pete Alonso"],
     "tier": "rookie",
     "distractors": {
@@ -352,7 +352,7 @@
     "lng": -75.1665,
     "conference": "National League",
     "division": "NL East",
-    "logo_url": "/assets/logos/mlb/phillies.png",
+    "logo_url": "/assets/logos/mlb/philadelphia-phillies.png",
     "star_players": ["Bryce Harper", "Trea Turner"],
     "tier": "rookie",
     "distractors": {
@@ -371,7 +371,7 @@
     "lng": -77.0074,
     "conference": "National League",
     "division": "NL East",
-    "logo_url": "/assets/logos/mlb/nationals.png",
+    "logo_url": "/assets/logos/mlb/washington-nationals.png",
     "star_players": ["CJ Abrams", "MacKenzie Gore"],
     "tier": "rookie",
     "distractors": {
@@ -390,7 +390,7 @@
     "lng": -87.6553,
     "conference": "National League",
     "division": "NL Central",
-    "logo_url": "/assets/logos/mlb/cubs.png",
+    "logo_url": "/assets/logos/mlb/chicago-cubs.png",
     "star_players": ["Dansby Swanson", "Nico Hoerner"],
     "tier": "rookie",
     "distractors": {
@@ -409,7 +409,7 @@
     "lng": -84.5080,
     "conference": "National League",
     "division": "NL Central",
-    "logo_url": "/assets/logos/mlb/reds.png",
+    "logo_url": "/assets/logos/mlb/cincinnati-reds.png",
     "star_players": ["Elly De La Cruz", "Matt McLain"],
     "tier": "rookie",
     "distractors": {
@@ -428,7 +428,7 @@
     "lng": -87.9712,
     "conference": "National League",
     "division": "NL Central",
-    "logo_url": "/assets/logos/mlb/brewers.png",
+    "logo_url": "/assets/logos/mlb/milwaukee-brewers.png",
     "star_players": ["Christian Yelich", "Willy Adames"],
     "tier": "rookie",
     "distractors": {
@@ -447,7 +447,7 @@
     "lng": -80.0057,
     "conference": "National League",
     "division": "NL Central",
-    "logo_url": "/assets/logos/mlb/pirates.png",
+    "logo_url": "/assets/logos/mlb/pittsburgh-pirates.png",
     "star_players": ["Ke'Bryan Hayes", "Oneil Cruz"],
     "tier": "rookie",
     "distractors": {
@@ -466,7 +466,7 @@
     "lng": -90.1928,
     "conference": "National League",
     "division": "NL Central",
-    "logo_url": "/assets/logos/mlb/cardinals.png",
+    "logo_url": "/assets/logos/mlb/st-louis-cardinals.png",
     "star_players": ["Nolan Arenado", "Paul Goldschmidt"],
     "tier": "rookie",
     "distractors": {
@@ -485,7 +485,7 @@
     "lng": -112.0667,
     "conference": "National League",
     "division": "NL West",
-    "logo_url": "/assets/logos/mlb/diamondbacks.png",
+    "logo_url": "/assets/logos/mlb/arizona-diamondbacks.png",
     "star_players": ["Corbin Carroll", "Ketel Marte"],
     "tier": "rookie",
     "distractors": {
@@ -504,7 +504,7 @@
     "lng": -104.9942,
     "conference": "National League",
     "division": "NL West",
-    "logo_url": "/assets/logos/mlb/rockies.png",
+    "logo_url": "/assets/logos/mlb/colorado-rockies.png",
     "star_players": ["Ezequiel Tovar", "Brenton Doyle"],
     "tier": "rookie",
     "distractors": {
@@ -523,7 +523,7 @@
     "lng": -118.2400,
     "conference": "National League",
     "division": "NL West",
-    "logo_url": "/assets/logos/mlb/dodgers.png",
+    "logo_url": "/assets/logos/mlb/los-angeles-dodgers.png",
     "star_players": ["Mookie Betts", "Freddie Freeman"],
     "tier": "rookie",
     "distractors": {
@@ -542,7 +542,7 @@
     "lng": -117.1570,
     "conference": "National League",
     "division": "NL West",
-    "logo_url": "/assets/logos/mlb/padres.png",
+    "logo_url": "/assets/logos/mlb/san-diego-padres.png",
     "star_players": ["Fernando Tatis Jr.", "Manny Machado"],
     "tier": "rookie",
     "distractors": {
@@ -561,7 +561,7 @@
     "lng": -122.3893,
     "conference": "National League",
     "division": "NL West",
-    "logo_url": "/assets/logos/mlb/giants.png",
+    "logo_url": "/assets/logos/mlb/san-francisco-giants.png",
     "star_players": ["Matt Chapman", "Logan Webb"],
     "tier": "rookie",
     "distractors": {

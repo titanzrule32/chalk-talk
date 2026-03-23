@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import type { GameMode } from '../../types';
 import { usePlayer } from '../../context/PlayerContext';
@@ -18,8 +18,8 @@ export function GameScreen({ mode }: GameScreenProps) {
   const { activePlayer, updateAfterRound } = usePlayer();
   const engine = useGameEngine();
   const [initialized, setInitialized] = useState(false);
-  const [roundQuestionIds, setRoundQuestionIds] = useState<string[]>([]);
   const [newSeenIds, setNewSeenIds] = useState<string[]>([]);
+  const completedRef = useRef(false);
 
   // Initialize the round
   useEffect(() => {
@@ -40,26 +40,27 @@ export function GameScreen({ mode }: GameScreenProps) {
       pool,
       seenIds,
     );
-    setRoundQuestionIds(selectedIds);
     setNewSeenIds(updatedSeenIds);
     engine.startRound(mode, selectedIds);
     setInitialized(true);
+    completedRef.current = false;
   }, [activePlayer, mode, initialized, navigate, engine]);
 
   // Handle round completion
   useEffect(() => {
-    if (!engine.gameState?.roundComplete || !activePlayer) return;
-
     const gs = engine.gameState;
-    const maxScore = mode === 1 ? MODE1_MAX_ROUND : gs.score; // For mode 2, max is variable
+    if (!gs?.roundComplete || !activePlayer || completedRef.current) return;
+
+    // Prevent double-firing (React StrictMode)
+    completedRef.current = true;
+
     const correct = gs.answers.filter((a) => a.correct).length;
     const seenIds = newSeenIds.length > 0
       ? newSeenIds.filter((id) => !activePlayer[mode === 1 ? 'mode1SeenIds' : 'mode2SeenIds'].includes(id))
-      : roundQuestionIds;
+      : gs.questionIds;
 
-    updateAfterRound(mode, gs.score, maxScore, correct, seenIds, gs.streak);
+    updateAfterRound(mode, gs.score, MODE1_MAX_ROUND, correct, seenIds, gs.streak);
 
-    // Navigate to results
     const params = new URLSearchParams({
       mode: String(mode),
       score: String(gs.score),
@@ -68,7 +69,7 @@ export function GameScreen({ mode }: GameScreenProps) {
       streak: String(gs.streak),
     });
     navigate(`/results?${params.toString()}`);
-  }, [engine.gameState?.roundComplete, activePlayer, mode, newSeenIds, roundQuestionIds, updateAfterRound, navigate, engine.gameState]);
+  }, [engine.gameState?.roundComplete]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!engine.gameState || !initialized) {
     return (
@@ -87,8 +88,7 @@ export function GameScreen({ mode }: GameScreenProps) {
         questionIndex={gs.questionIndex}
         score={gs.score}
         streak={gs.streak}
-        onCityAnswer={engine.submitMode1CityAnswer}
-        onTeamAnswer={engine.submitMode1TeamAnswer}
+        onQuestionComplete={engine.completeMode1Question}
         onNextQuestion={engine.nextQuestion}
       />
     );

@@ -1,5 +1,4 @@
 import { useState, useMemo, useCallback } from 'react';
-// Mode1Question type used via getMode1ById
 import { getMode1ById } from '../../data';
 import { shuffle, pickRandom } from '../../utils/shuffle';
 import { TeamLogo } from './TeamLogo';
@@ -14,8 +13,7 @@ interface Mode1RoundProps {
   questionIndex: number;
   score: number;
   streak: number;
-  onCityAnswer: (correct: boolean) => void;
-  onTeamAnswer: (correct: boolean) => void;
+  onQuestionComplete: (cityAttempts: number, cityCorrect: boolean, teamCorrect: boolean) => void;
   onNextQuestion: () => void;
 }
 
@@ -26,8 +24,7 @@ export function Mode1Round({
   questionIndex,
   score,
   streak,
-  onCityAnswer,
-  onTeamAnswer,
+  onQuestionComplete,
   onNextQuestion,
 }: Mode1RoundProps) {
   const [phase, setPhase] = useState<Phase>('pick-city');
@@ -41,7 +38,6 @@ export function Mode1Round({
   const questionId = questionIds[questionIndex]!;
   const question = getMode1ById(questionId);
 
-  // Generate options for city phase
   const cityOptions = useMemo(() => {
     if (!question) return [];
     const distractors = pickRandom(question.distractors.cities, 3);
@@ -49,7 +45,6 @@ export function Mode1Round({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questionId]);
 
-  // Generate options for team name phase
   const teamOptions = useMemo(() => {
     if (!question) return [];
     const distractors = pickRandom(question.distractors.teams, 3);
@@ -57,7 +52,6 @@ export function Mode1Round({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [questionId]);
 
-  // Build clues
   const clues = useMemo(() => {
     if (!question) return [];
     return [
@@ -71,7 +65,6 @@ export function Mode1Round({
     setPhase('pick-city');
     setCityAttempts(0);
     setCityCorrect(false);
-
     setLastTeamCorrect(null);
     setSelectedCity(null);
     setSelectedTeam(null);
@@ -91,27 +84,19 @@ export function Mode1Round({
 
     if (correct) {
       setCityCorrect(true);
-
-      onCityAnswer(true);
-      // Show brief feedback then move to team name phase
       setTimeout(() => {
         setPhase('pick-team');
         setSelectedCity(null);
         setIsProcessing(false);
       }, 800);
     } else {
-
-      onCityAnswer(false);
       if (newAttempts >= 3) {
-        // Failed all 3 - show correct answer briefly, then team phase
         setTimeout(() => {
           setPhase('city-feedback');
         }, 600);
       } else {
-        // More attempts available
         setTimeout(() => {
           setSelectedCity(null);
-      
           setIsProcessing(false);
         }, 600);
       }
@@ -124,7 +109,10 @@ export function Mode1Round({
     setSelectedTeam(answer);
     const correct = answer === question.team_name;
     setLastTeamCorrect(correct);
-    onTeamAnswer(correct);
+
+    // Report to engine with accumulated city state
+    onQuestionComplete(cityAttempts, cityCorrect, correct);
+
     setTimeout(() => {
       setPhase('team-feedback');
     }, 600);
@@ -155,13 +143,11 @@ export function Mode1Round({
         streak={streak}
       />
 
-      {/* Team Logo */}
       <div className="mb-4 flex justify-center">
         <TeamLogo src={question.logo_url} alt="Team Logo" />
       </div>
 
-      {/* City Phase */}
-      {(phase === 'pick-city') && (
+      {phase === 'pick-city' && (
         <>
           <ClueBar clues={clues} revealedCount={cityAttempts} />
           <p className="mb-3 text-center text-xl font-bold text-chalk-text">
@@ -181,7 +167,6 @@ export function Mode1Round({
         </>
       )}
 
-      {/* City feedback after 3 failures */}
       {phase === 'city-feedback' && (
         <FeedbackOverlay
           correct={false}
@@ -193,7 +178,6 @@ export function Mode1Round({
         />
       )}
 
-      {/* Team Name Phase */}
       {phase === 'pick-team' && (
         <>
           <div className="mb-3 rounded-xl bg-blue-50 px-4 py-2 text-center text-sm font-semibold text-blue-800">
@@ -218,7 +202,6 @@ export function Mode1Round({
         </>
       )}
 
-      {/* Team feedback */}
       {phase === 'team-feedback' && (
         <FeedbackOverlay
           correct={lastTeamCorrect ?? false}

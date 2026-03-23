@@ -2,10 +2,18 @@
  * Logo Fetcher for Chalk Talk
  *
  * Downloads team logos from TheSportsDB API and saves them locally.
- * Usage: node scripts/fetch-logos.js
  *
- * TheSportsDB free API key: 3
- * Rate limiting: 1 second delay between requests
+ * Usage:
+ *   node scripts/fetch-logos.js              # Fetch all default leagues (NFL, NBA, MLB)
+ *   node scripts/fetch-logos.js nhl          # Fetch NHL logos only
+ *   node scripts/fetch-logos.js mls epl      # Fetch MLS and EPL logos
+ *   node scripts/fetch-logos.js --all        # Fetch all supported leagues
+ *
+ * Supported leagues:
+ *   nfl, nba, mlb, nhl, mls, epl, ncaaf, ncaab
+ *
+ * TheSportsDB API key: 3 (free tier)
+ * Rate limiting: 1.5 second delay between requests
  */
 
 import { writeFile, mkdir } from 'fs/promises';
@@ -18,11 +26,19 @@ const BASE_URL = 'https://www.thesportsdb.com/api/v1/json/3';
 const OUTPUT_DIR = join(__dirname, '..', 'public', 'assets', 'logos');
 const DELAY_MS = 1500;
 
-const LEAGUES = [
-  { name: 'NFL', query: 'NFL', dir: 'nfl' },
-  { name: 'NBA', query: 'NBA', dir: 'nba' },
-  { name: 'MLB', query: 'MLB', dir: 'mlb' },
-];
+// Map of CLI shorthand → TheSportsDB league name + output directory
+const LEAGUE_CONFIG = {
+  nfl:   { query: 'NFL',                         dir: 'nfl',   label: 'NFL' },
+  nba:   { query: 'NBA',                         dir: 'nba',   label: 'NBA' },
+  mlb:   { query: 'MLB',                         dir: 'mlb',   label: 'MLB' },
+  nhl:   { query: 'NHL',                         dir: 'nhl',   label: 'NHL' },
+  mls:   { query: 'American Major League Soccer',  dir: 'mls',   label: 'MLS' },
+  epl:   { query: 'English Premier League',      dir: 'epl',   label: 'English Premier League' },
+  ncaaf: { query: 'NCAAF',                       dir: 'ncaaf', label: 'NCAA Football' },
+  ncaab: { query: 'NCAAB',                       dir: 'ncaab', label: 'NCAA Basketball' },
+};
+
+const DEFAULT_LEAGUES = ['nfl', 'nba', 'mlb'];
 
 function slugify(name) {
   return name
@@ -37,7 +53,7 @@ function sleep(ms) {
 
 async function fetchTeamsForLeague(leagueName) {
   const url = `${BASE_URL}/search_all_teams.php?l=${encodeURIComponent(leagueName)}`;
-  console.log(`Fetching teams for ${leagueName}...`);
+  console.log(`  Fetching teams for "${leagueName}"...`);
   const response = await fetch(url);
   const data = await response.json();
   return data.teams || [];
@@ -46,56 +62,97 @@ async function fetchTeamsForLeague(leagueName) {
 async function downloadImage(url, outputPath) {
   const response = await fetch(url);
   if (!response.ok) {
-    throw new Error(`Failed to download: ${url} (${response.status})`);
+    throw new Error(`HTTP ${response.status}`);
   }
   const buffer = Buffer.from(await response.arrayBuffer());
   await writeFile(outputPath, buffer);
 }
 
-async function main() {
-  console.log('Chalk Talk Logo Fetcher');
-  console.log('======================\n');
+async function fetchLeague(key) {
+  const config = LEAGUE_CONFIG[key];
+  if (!config) {
+    console.log(`  Unknown league: "${key}". Supported: ${Object.keys(LEAGUE_CONFIG).join(', ')}`);
+    return;
+  }
 
-  for (const league of LEAGUES) {
-    const leagueDir = join(OUTPUT_DIR, league.dir);
-    if (!existsSync(leagueDir)) {
-      await mkdir(leagueDir, { recursive: true });
+  console.log(`\n=== ${config.label} ===`);
+
+  const leagueDir = join(OUTPUT_DIR, config.dir);
+  if (!existsSync(leagueDir)) {
+    await mkdir(leagueDir, { recursive: true });
+  }
+
+  const teams = await fetchTeamsForLeague(config.query);
+  console.log(`  Found ${teams.length} teams\n`);
+
+  if (teams.length === 0) {
+    console.log(`  No teams found. The league name "${config.query}" may not match TheSportsDB.`);
+    console.log(`  Try searching at: https://www.thesportsdb.com/api/v1/json/3/search_all_teams.php?l=YOUR_LEAGUE`);
+    return;
+  }
+
+  let downloaded = 0;
+  let skipped = 0;
+  let failed = 0;
+
+  for (const team of teams) {
+    const badgeUrl = team.strBadge || team.strTeamBadge;
+    if (!badgeUrl) {
+      console.log(`  SKIP: ${team.strTeam} (no badge URL)`);
+      skipped++;
+      continue;
     }
 
-    const teams = await fetchTeamsForLeague(league.query);
-    console.log(`Found ${teams.length} teams for ${league.name}\n`);
+    const teamSlug = slugify(team.strTeam);
+    const outputPath = join(leagueDir, `${teamSlug}.png`);
 
-    for (const team of teams) {
-      const badgeUrl = team.strBadge || team.strTeamBadge;
-      if (!badgeUrl) {
-        console.log(`  SKIP: ${team.strTeam} (no badge URL)`);
-        continue;
-      }
-
-      const teamSlug = slugify(team.strTeam);
-      const ext = badgeUrl.includes('.png') ? '.png' : '.png';
-      const outputPath = join(leagueDir, `${teamSlug}${ext}`);
-
-      if (existsSync(outputPath)) {
-        console.log(`  EXISTS: ${team.strTeam}`);
-        continue;
-      }
-
-      try {
-        await downloadImage(badgeUrl, outputPath);
-        console.log(`  OK: ${team.strTeam} -> ${teamSlug}${ext}`);
-      } catch (err) {
-        console.log(`  FAIL: ${team.strTeam} - ${err.message}`);
-      }
-
-      await sleep(DELAY_MS);
+    if (existsSync(outputPath)) {
+      console.log(`  EXISTS: ${team.strTeam}`);
+      skipped++;
+      continue;
     }
 
-    console.log('');
+    try {
+      await downloadImage(badgeUrl, outputPath);
+      console.log(`  OK: ${team.strTeam} -> ${teamSlug}.png`);
+      downloaded++;
+    } catch (err) {
+      console.log(`  FAIL: ${team.strTeam} - ${err.message}`);
+      failed++;
+    }
+
     await sleep(DELAY_MS);
   }
 
-  console.log('Done! Logos saved to public/assets/logos/');
+  console.log(`\n  Summary: ${downloaded} downloaded, ${skipped} skipped, ${failed} failed`);
+}
+
+async function main() {
+  console.log('Chalk Talk Logo Fetcher');
+  console.log('======================');
+
+  const args = process.argv.slice(2).map((a) => a.toLowerCase().replace(/^--?/, ''));
+
+  let leaguesToFetch;
+
+  if (args.length === 0) {
+    console.log(`\nNo leagues specified. Fetching defaults: ${DEFAULT_LEAGUES.join(', ')}`);
+    console.log(`Usage: node scripts/fetch-logos.js [league1] [league2] ...`);
+    console.log(`       node scripts/fetch-logos.js --all`);
+    console.log(`Supported: ${Object.keys(LEAGUE_CONFIG).join(', ')}\n`);
+    leaguesToFetch = DEFAULT_LEAGUES;
+  } else if (args.includes('all')) {
+    leaguesToFetch = Object.keys(LEAGUE_CONFIG);
+  } else {
+    leaguesToFetch = args;
+  }
+
+  for (const league of leaguesToFetch) {
+    await fetchLeague(league);
+    await sleep(DELAY_MS);
+  }
+
+  console.log('\nDone! Logos saved to public/assets/logos/');
 }
 
 main().catch(console.error);

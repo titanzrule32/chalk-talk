@@ -1,0 +1,382 @@
+[
+  {
+    "id": "epl-001",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Arsenal",
+    "city": "London",
+    "state": "England",
+    "lat": 51.5549,
+    "lng": -0.1084,
+    "conference": "Premier League",
+    "division": "North London",
+    "logo_url": "/assets/logos/epl/arsenal.png",
+    "star_players": ["Bukayo Saka", "Martin Odegaard"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Birmingham", "Leeds", "Newcastle"],
+      "teams": ["Tottenham Hotspur", "Chelsea", "Manchester City", "Liverpool"]
+    }
+  },
+  {
+    "id": "epl-002",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Aston Villa",
+    "city": "Birmingham",
+    "state": "England",
+    "lat": 52.5090,
+    "lng": -1.8849,
+    "conference": "Premier League",
+    "division": "West Midlands",
+    "logo_url": "/assets/logos/epl/aston-villa.png",
+    "star_players": ["Ollie Watkins", "Leon Bailey"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["London", "Wolverhampton", "Leicester", "Nottingham", "Manchester"],
+      "teams": ["Wolverhampton Wanderers", "Nottingham Forest", "Crystal Palace", "Everton"]
+    }
+  },
+  {
+    "id": "epl-003",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Bournemouth",
+    "city": "Bournemouth",
+    "state": "England",
+    "lat": 50.7352,
+    "lng": -1.8382,
+    "conference": "Premier League",
+    "division": "South Coast",
+    "logo_url": "/assets/logos/epl/bournemouth.png",
+    "star_players": ["Dominic Solanke", "Antoine Semenyo"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Brighton", "Southampton", "Portsmouth", "London", "Bristol"],
+      "teams": ["Brighton and Hove Albion", "Crystal Palace", "Fulham", "Brentford"]
+    }
+  },
+  {
+    "id": "epl-004",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Brentford",
+    "city": "London",
+    "state": "England",
+    "lat": 51.4907,
+    "lng": -0.2886,
+    "conference": "Premier League",
+    "division": "West London",
+    "logo_url": "/assets/logos/epl/brentford.png",
+    "star_players": ["Ivan Toney", "Bryan Mbeumo"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Birmingham", "Leeds", "Bristol"],
+      "teams": ["Fulham", "Chelsea", "Crystal Palace", "West Ham United"]
+    }
+  },
+  {
+    "id": "epl-005",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Brighton and Hove Albion",
+    "city": "Brighton",
+    "state": "England",
+    "lat": 50.8614,
+    "lng": -0.0837,
+    "conference": "Premier League",
+    "division": "South Coast",
+    "logo_url": "/assets/logos/epl/brighton-and-hove-albion.png",
+    "star_players": ["Kaoru Mitoma", "Joao Pedro"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Bournemouth", "Southampton", "London", "Portsmouth", "Bristol"],
+      "teams": ["Bournemouth", "Crystal Palace", "Fulham", "Brentford"]
+    }
+  },
+  {
+    "id": "epl-006",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Burnley",
+    "city": "Burnley",
+    "state": "England",
+    "lat": 53.7886,
+    "lng": -2.2303,
+    "conference": "Premier League",
+    "division": "Lancashire",
+    "logo_url": "/assets/logos/epl/burnley.png",
+    "star_players": ["Sander Berge", "Zeki Amdouni"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Leeds", "Sheffield", "Blackburn"],
+      "teams": ["Manchester United", "Manchester City", "Liverpool", "Everton"]
+    }
+  },
+  {
+    "id": "epl-007",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Chelsea",
+    "city": "London",
+    "state": "England",
+    "lat": 51.4817,
+    "lng": -0.1910,
+    "conference": "Premier League",
+    "division": "West London",
+    "logo_url": "/assets/logos/epl/chelsea.png",
+    "star_players": ["Cole Palmer", "Enzo Fernandez"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Birmingham", "Leeds", "Newcastle"],
+      "teams": ["Arsenal", "Tottenham Hotspur", "Fulham", "West Ham United"]
+    }
+  },
+  {
+    "id": "epl-008",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Crystal Palace",
+    "city": "London",
+    "state": "England",
+    "lat": 51.3983,
+    "lng": -0.0855,
+    "conference": "Premier League",
+    "division": "South London",
+    "logo_url": "/assets/logos/epl/crystal-palace.png",
+    "star_players": ["Eberechi Eze", "Michael Olise"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Birmingham", "Brighton", "Bristol"],
+      "teams": ["West Ham United", "Fulham", "Brentford", "Brighton and Hove Albion"]
+    }
+  },
+  {
+    "id": "epl-009",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Everton",
+    "city": "Liverpool",
+    "state": "England",
+    "lat": 53.4388,
+    "lng": -2.9664,
+    "conference": "Premier League",
+    "division": "Merseyside",
+    "logo_url": "/assets/logos/epl/everton.png",
+    "star_players": ["Abdoulaye Doucoure", "Dwight McNeil"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "London", "Leeds", "Birmingham", "Newcastle"],
+      "teams": ["Liverpool", "Manchester United", "Manchester City", "Burnley"]
+    }
+  },
+  {
+    "id": "epl-010",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Fulham",
+    "city": "London",
+    "state": "England",
+    "lat": 51.4749,
+    "lng": -0.2217,
+    "conference": "Premier League",
+    "division": "West London",
+    "logo_url": "/assets/logos/epl/fulham.png",
+    "star_players": ["Joao Palhinha", "Andreas Pereira"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Birmingham", "Brighton", "Leeds"],
+      "teams": ["Chelsea", "Brentford", "Crystal Palace", "West Ham United"]
+    }
+  },
+  {
+    "id": "epl-011",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Leeds United",
+    "city": "Leeds",
+    "state": "England",
+    "lat": 53.7778,
+    "lng": -1.5722,
+    "conference": "Premier League",
+    "division": "Yorkshire",
+    "logo_url": "/assets/logos/epl/leeds-united.png",
+    "star_players": ["Crysencio Summerville", "Georginio Rutter"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Sheffield", "Newcastle", "Nottingham"],
+      "teams": ["Manchester United", "Newcastle United", "Burnley", "Everton"]
+    }
+  },
+  {
+    "id": "epl-012",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Liverpool",
+    "city": "Liverpool",
+    "state": "England",
+    "lat": 53.4308,
+    "lng": -2.9608,
+    "conference": "Premier League",
+    "division": "Merseyside",
+    "logo_url": "/assets/logos/epl/liverpool.png",
+    "star_players": ["Mohamed Salah", "Virgil van Dijk"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "London", "Leeds", "Birmingham", "Newcastle"],
+      "teams": ["Everton", "Manchester United", "Manchester City", "Arsenal"]
+    }
+  },
+  {
+    "id": "epl-013",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Manchester City",
+    "city": "Manchester",
+    "state": "England",
+    "lat": 53.4831,
+    "lng": -2.2004,
+    "conference": "Premier League",
+    "division": "Manchester",
+    "logo_url": "/assets/logos/epl/manchester-city.png",
+    "star_players": ["Erling Haaland", "Kevin De Bruyne"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["London", "Liverpool", "Birmingham", "Leeds", "Newcastle"],
+      "teams": ["Manchester United", "Liverpool", "Arsenal", "Chelsea"]
+    }
+  },
+  {
+    "id": "epl-014",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Manchester United",
+    "city": "Manchester",
+    "state": "England",
+    "lat": 53.4631,
+    "lng": -2.2913,
+    "conference": "Premier League",
+    "division": "Manchester",
+    "logo_url": "/assets/logos/epl/manchester-united.png",
+    "star_players": ["Marcus Rashford", "Bruno Fernandes"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["London", "Liverpool", "Birmingham", "Leeds", "Newcastle"],
+      "teams": ["Manchester City", "Liverpool", "Arsenal", "Chelsea"]
+    }
+  },
+  {
+    "id": "epl-015",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Newcastle United",
+    "city": "Newcastle",
+    "state": "England",
+    "lat": 54.9756,
+    "lng": -1.6216,
+    "conference": "Premier League",
+    "division": "North East",
+    "logo_url": "/assets/logos/epl/newcastle-united.png",
+    "star_players": ["Alexander Isak", "Bruno Guimaraes"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Sunderland", "Manchester", "Liverpool", "Leeds", "London"],
+      "teams": ["Sunderland", "Manchester United", "Liverpool", "Everton"]
+    }
+  },
+  {
+    "id": "epl-016",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Nottingham Forest",
+    "city": "Nottingham",
+    "state": "England",
+    "lat": 52.9400,
+    "lng": -1.1328,
+    "conference": "Premier League",
+    "division": "East Midlands",
+    "logo_url": "/assets/logos/epl/nottingham-forest.png",
+    "star_players": ["Morgan Gibbs-White", "Chris Wood"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Leicester", "Birmingham", "Derby", "Sheffield", "Leeds"],
+      "teams": ["Aston Villa", "Leeds United", "Wolverhampton Wanderers", "Burnley"]
+    }
+  },
+  {
+    "id": "epl-017",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Sunderland",
+    "city": "Sunderland",
+    "state": "England",
+    "lat": 54.9146,
+    "lng": -1.3882,
+    "conference": "Premier League",
+    "division": "North East",
+    "logo_url": "/assets/logos/epl/sunderland.png",
+    "star_players": ["Jobe Bellingham", "Romaine Mundle"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Newcastle", "Manchester", "Liverpool", "Leeds", "Middlesbrough"],
+      "teams": ["Newcastle United", "Burnley", "Leeds United", "Everton"]
+    }
+  },
+  {
+    "id": "epl-018",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Tottenham Hotspur",
+    "city": "London",
+    "state": "England",
+    "lat": 51.6043,
+    "lng": -0.0663,
+    "conference": "Premier League",
+    "division": "North London",
+    "logo_url": "/assets/logos/epl/tottenham-hotspur.png",
+    "star_players": ["Son Heung-min", "James Maddison"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Birmingham", "Leeds", "Newcastle"],
+      "teams": ["Arsenal", "Chelsea", "West Ham United", "Crystal Palace"]
+    }
+  },
+  {
+    "id": "epl-019",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "West Ham United",
+    "city": "London",
+    "state": "England",
+    "lat": 51.5387,
+    "lng": 0.0166,
+    "conference": "Premier League",
+    "division": "East London",
+    "logo_url": "/assets/logos/epl/west-ham-united.png",
+    "star_players": ["Jarrod Bowen", "Mohammed Kudus"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Manchester", "Liverpool", "Birmingham", "Brighton", "Leeds"],
+      "teams": ["Crystal Palace", "Fulham", "Chelsea", "Tottenham Hotspur"]
+    }
+  },
+  {
+    "id": "epl-020",
+    "sport": "soccer",
+    "league": "Premier League",
+    "team_name": "Wolverhampton Wanderers",
+    "city": "Wolverhampton",
+    "state": "England",
+    "lat": 52.5902,
+    "lng": -2.1306,
+    "conference": "Premier League",
+    "division": "West Midlands",
+    "logo_url": "/assets/logos/epl/wolverhampton-wanderers.png",
+    "star_players": ["Matheus Cunha", "Pedro Neto"],
+    "tier": "legend",
+    "distractors": {
+      "cities": ["Birmingham", "Manchester", "Leicester", "Nottingham", "London"],
+      "teams": ["Aston Villa", "Nottingham Forest", "Leeds United", "Crystal Palace"]
+    }
+  }
+]

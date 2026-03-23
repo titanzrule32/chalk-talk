@@ -29,85 +29,35 @@ export function useGameEngine() {
     setGameState(createInitialState(mode, questionIds));
   }, []);
 
-  const submitMode1CityAnswer = useCallback((correct: boolean) => {
-    setGameState((prev) => {
-      if (!prev || prev.isProcessing) return prev;
-      const attempts = prev.mode1CityAttempts + 1;
+  // Mode 1: single callback after both city + team phases are done
+  const completeMode1Question = useCallback(
+    (cityAttempts: number, cityCorrect: boolean, teamCorrect: boolean) => {
+      setGameState((prev) => {
+        if (!prev) return prev;
 
-      if (correct) {
+        const cityPoints = scoreMode1City(cityAttempts, cityCorrect);
+        const teamPoints = scoreMode1Team(teamCorrect);
+        const totalPoints = cityPoints + teamPoints;
+
+        const record: AnswerRecord = {
+          questionId: prev.questionIds[prev.questionIndex]!,
+          correct: cityCorrect && teamCorrect,
+          attempts: cityAttempts,
+          pointsEarned: totalPoints,
+        };
+
+        const newStreak = teamCorrect ? prev.streak + 1 : 0;
+
         return {
           ...prev,
-          mode1CityAttempts: attempts,
-          mode1CityCorrect: true,
-          mode1Phase: 'feedback' as const,
-          lastAnswerCorrect: true,
-          isProcessing: true,
+          score: prev.score + totalPoints,
+          streak: newStreak,
+          answers: [...prev.answers, record],
         };
-      }
-
-      // Wrong answer
-      if (attempts >= 3) {
-        // Failed all 3 - move to team name phase
-        return {
-          ...prev,
-          mode1CityAttempts: attempts,
-          mode1CityCorrect: false,
-          mode1Phase: 'feedback' as const,
-          lastAnswerCorrect: false,
-          isProcessing: true,
-        };
-      }
-
-      // More attempts available
-      return {
-        ...prev,
-        mode1CityAttempts: attempts,
-        lastAnswerCorrect: false,
-        isProcessing: true,
-      };
-    });
-  }, []);
-
-  const proceedToTeamName = useCallback(() => {
-    setGameState((prev) => {
-      if (!prev) return prev;
-      return {
-        ...prev,
-        mode1Phase: 'pick-team' as const,
-        lastAnswerCorrect: null,
-        isProcessing: false,
-      };
-    });
-  }, []);
-
-  const submitMode1TeamAnswer = useCallback((correct: boolean) => {
-    setGameState((prev) => {
-      if (!prev || prev.isProcessing) return prev;
-
-      const cityPoints = scoreMode1City(prev.mode1CityAttempts, prev.mode1CityCorrect);
-      const teamPoints = scoreMode1Team(correct);
-      const totalPoints = cityPoints + teamPoints;
-
-      const record: AnswerRecord = {
-        questionId: prev.questionIds[prev.questionIndex]!,
-        correct: prev.mode1CityCorrect && correct,
-        attempts: prev.mode1CityAttempts,
-        pointsEarned: totalPoints,
-      };
-
-      const newStreak = correct ? prev.streak + 1 : 0;
-
-      return {
-        ...prev,
-        score: prev.score + totalPoints,
-        streak: newStreak,
-        answers: [...prev.answers, record],
-        mode1Phase: 'feedback' as const,
-        lastAnswerCorrect: correct,
-        isProcessing: true,
-      };
-    });
-  }, []);
+      });
+    },
+    [],
+  );
 
   const submitMode2Answer = useCallback((correct: boolean) => {
     setGameState((prev) => {
@@ -189,20 +139,13 @@ export function useGameEngine() {
     });
   }, []);
 
-  const clearProcessing = useCallback(() => {
-    setGameState((prev) => (prev ? { ...prev, isProcessing: false } : prev));
-  }, []);
-
   return {
     gameState,
     startRound,
-    submitMode1CityAnswer,
-    proceedToTeamName,
-    submitMode1TeamAnswer,
+    completeMode1Question,
     submitMode2Answer,
     nextQuestion,
     useHalfCourt,
     useBenchSwap,
-    clearProcessing,
   };
 }

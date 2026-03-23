@@ -10,7 +10,7 @@
     "lng": -78.7866,
     "conference": "AFC",
     "division": "AFC East",
-    "logo_url": "/assets/logos/nfl/bills.png",
+    "logo_url": "/assets/logos/nfl/buffalo-bills.png",
     "star_players": ["Josh Allen", "Stefon Diggs"],
     "tier": "rookie",
     "distractors": {
@@ -29,7 +29,7 @@
     "lng": -80.2389,
     "conference": "AFC",
     "division": "AFC East",
-    "logo_url": "/assets/logos/nfl/dolphins.png",
+    "logo_url": "/assets/logos/nfl/miami-dolphins.png",
     "star_players": ["Tua Tagovailoa", "Tyreek Hill"],
     "tier": "rookie",
     "distractors": {
@@ -48,7 +48,7 @@
     "lng": -71.2643,
     "conference": "AFC",
     "division": "AFC East",
-    "logo_url": "/assets/logos/nfl/patriots.png",
+    "logo_url": "/assets/logos/nfl/new-england-patriots.png",
     "star_players": ["Drake Maye", "Christian Barmore"],
     "tier": "rookie",
     "distractors": {
@@ -67,7 +67,7 @@
     "lng": -74.0742,
     "conference": "AFC",
     "division": "AFC East",
-    "logo_url": "/assets/logos/nfl/jets.png",
+    "logo_url": "/assets/logos/nfl/new-york-jets.png",
     "star_players": ["Aaron Rodgers", "Sauce Gardner"],
     "tier": "rookie",
     "distractors": {
@@ -86,7 +86,7 @@
     "lng": -76.6227,
     "conference": "AFC",
     "division": "AFC North",
-    "logo_url": "/assets/logos/nfl/ravens.png",
+    "logo_url": "/assets/logos/nfl/baltimore-ravens.png",
     "star_players": ["Lamar Jackson", "Derrick Henry"],
     "tier": "rookie",
     "distractors": {
@@ -105,7 +105,7 @@
     "lng": -84.516,
     "conference": "AFC",
     "division": "AFC North",
-    "logo_url": "/assets/logos/nfl/bengals.png",
+    "logo_url": "/assets/logos/nfl/cincinnati-bengals.png",
     "star_players": ["Joe Burrow", "Ja'Marr Chase"],
     "tier": "rookie",
     "distractors": {
@@ -124,7 +124,7 @@
     "lng": -81.6995,
     "conference": "AFC",
     "division": "AFC North",
-    "logo_url": "/assets/logos/nfl/browns.png",
+    "logo_url": "/assets/logos/nfl/cleveland-browns.png",
     "star_players": ["Myles Garrett", "Nick Chubb"],
     "tier": "rookie",
     "distractors": {
@@ -143,7 +143,7 @@
     "lng": -80.0158,
     "conference": "AFC",
     "division": "AFC North",
-    "logo_url": "/assets/logos/nfl/steelers.png",
+    "logo_url": "/assets/logos/nfl/pittsburgh-steelers.png",
     "star_players": ["T.J. Watt", "George Pickens"],
     "tier": "rookie",
     "distractors": {
@@ -162,7 +162,7 @@
     "lng": -95.4107,
     "conference": "AFC",
     "division": "AFC South",
-    "logo_url": "/assets/logos/nfl/texans.png",
+    "logo_url": "/assets/logos/nfl/houston-texans.png",
     "star_players": ["C.J. Stroud", "Nico Collins"],
     "tier": "rookie",
     "distractors": {
@@ -181,7 +181,7 @@
     "lng": -86.1639,
     "conference": "AFC",
     "division": "AFC South",
-    "logo_url": "/assets/logos/nfl/colts.png",
+    "logo_url": "/assets/logos/nfl/indianapolis-colts.png",
     "star_players": ["Anthony Richardson", "Jonathan Taylor"],
     "tier": "rookie",
     "distractors": {
@@ -200,7 +200,7 @@
     "lng": -81.6373,
     "conference": "AFC",
     "division": "AFC South",
-    "logo_url": "/assets/logos/nfl/jaguars.png",
+    "logo_url": "/assets/logos/nfl/jacksonville-jaguars.png",
     "star_players": ["Trevor Lawrence", "Josh Allen"],
     "tier": "rookie",
     "distractors": {
@@ -219,7 +219,7 @@
     "lng": -86.7713,
     "conference": "AFC",
     "division": "AFC South",
-    "logo_url": "/assets/logos/nfl/titans.png",
+    "logo_url": "/assets/logos/nfl/tennessee-titans.png",
     "star_players": ["Will Levis", "DeAndre Hopkins"],
     "tier": "rookie",
     "distractors": {
@@ -238,7 +238,7 @@
     "lng": -105.02,
     "conference": "AFC",
     "division": "AFC West",
-    "logo_url": "/assets/logos/nfl/broncos.png",
+    "logo_url": "/assets/logos/nfl/denver-broncos.png",
     "star_players": ["Bo Nix", "Patrick Surtain II"],
     "tier": "rookie",
     "distractors": {
@@ -257,7 +257,7 @@
     "lng": -94.4839,
     "conference": "AFC",
     "division": "AFC West",
-    "logo_url": "/assets/logos/nfl/chiefs.png",
+    "logo_url": "/assets/logos/nfl/kansas-city-chiefs.png",
     "star_players": ["Patrick Mahomes", "Travis Kelce"],
     "tier": "rookie",
     "distractors": {
@@ -276,7 +276,7 @@
     "lng": -115.1833,
     "conference": "AFC",
     "division": "AFC West",
-    "logo_url": "/assets/logos/nfl/raiders.png",
+    "logo_url": "/assets/logos/nfl/las-vegas-raiders.png",
     "star_players": ["Maxx Crosby", "Davante Adams"],
     "tier": "rookie",
     "distractors": {
@@ -295,7 +295,7 @@
     "lng": -118.3392,
     "conference": "AFC",
     "division": "AFC West",
-    "logo_url": "/assets/logos/nfl/chargers.png",
+    "logo_url": "/assets/logos/nfl/los-angeles-chargers.png",
     "star_players": ["Justin Herbert", "Khalil Mack"],
     "tier": "rookie",
     "distractors": {
@@ -314,7 +314,7 @@
     "lng": -97.0945,
     "conference": "NFC",
     "division": "NFC East",
-    "logo_url": "/assets/logos/nfl/cowboys.png",
+    "logo_url": "/assets/logos/nfl/dallas-cowboys.png",
     "star_players": ["Dak Prescott", "CeeDee Lamb"],
     "tier": "rookie",
     "distractors": {
@@ -333,7 +333,7 @@
     "lng": -74.0742,
     "conference": "NFC",
     "division": "NFC East",
-    "logo_url": "/assets/logos/nfl/giants.png",
+    "logo_url": "/assets/logos/nfl/new-york-giants.png",
     "star_players": ["Daniel Jones", "Dexter Lawrence"],
     "tier": "rookie",
     "distractors": {
@@ -352,7 +352,7 @@
     "lng": -75.1676,
     "conference": "NFC",
     "division": "NFC East",
-    "logo_url": "/assets/logos/nfl/eagles.png",
+    "logo_url": "/assets/logos/nfl/philadelphia-eagles.png",
     "star_players": ["Jalen Hurts", "A.J. Brown"],
     "tier": "rookie",
     "distractors": {
@@ -371,7 +371,7 @@
     "lng": -76.8645,
     "conference": "NFC",
     "division": "NFC East",
-    "logo_url": "/assets/logos/nfl/commanders.png",
+    "logo_url": "/assets/logos/nfl/washington-commanders.png",
     "star_players": ["Jayden Daniels", "Terry McLaurin"],
     "tier": "rookie",
     "distractors": {
@@ -390,7 +390,7 @@
     "lng": -87.6167,
     "conference": "NFC",
     "division": "NFC North",
-    "logo_url": "/assets/logos/nfl/bears.png",
+    "logo_url": "/assets/logos/nfl/chicago-bears.png",
     "star_players": ["Caleb Williams", "DJ Moore"],
     "tier": "rookie",
     "distractors": {
@@ -409,7 +409,7 @@
     "lng": -83.0456,
     "conference": "NFC",
     "division": "NFC North",
-    "logo_url": "/assets/logos/nfl/lions.png",
+    "logo_url": "/assets/logos/nfl/detroit-lions.png",
     "star_players": ["Jared Goff", "Aidan Hutchinson"],
     "tier": "rookie",
     "distractors": {
@@ -428,7 +428,7 @@
     "lng": -88.0622,
     "conference": "NFC",
     "division": "NFC North",
-    "logo_url": "/assets/logos/nfl/packers.png",
+    "logo_url": "/assets/logos/nfl/green-bay-packers.png",
     "star_players": ["Jordan Love", "Jaire Alexander"],
     "tier": "rookie",
     "distractors": {
@@ -447,7 +447,7 @@
     "lng": -93.2575,
     "conference": "NFC",
     "division": "NFC North",
-    "logo_url": "/assets/logos/nfl/vikings.png",
+    "logo_url": "/assets/logos/nfl/minnesota-vikings.png",
     "star_players": ["Sam Darnold", "Justin Jefferson"],
     "tier": "rookie",
     "distractors": {
@@ -466,7 +466,7 @@
     "lng": -84.401,
     "conference": "NFC",
     "division": "NFC South",
-    "logo_url": "/assets/logos/nfl/falcons.png",
+    "logo_url": "/assets/logos/nfl/atlanta-falcons.png",
     "star_players": ["Kirk Cousins", "Bijan Robinson"],
     "tier": "rookie",
     "distractors": {
@@ -485,7 +485,7 @@
     "lng": -80.8528,
     "conference": "NFC",
     "division": "NFC South",
-    "logo_url": "/assets/logos/nfl/panthers.png",
+    "logo_url": "/assets/logos/nfl/carolina-panthers.png",
     "star_players": ["Bryce Young", "Brian Burns"],
     "tier": "rookie",
     "distractors": {
@@ -504,7 +504,7 @@
     "lng": -90.0812,
     "conference": "NFC",
     "division": "NFC South",
-    "logo_url": "/assets/logos/nfl/saints.png",
+    "logo_url": "/assets/logos/nfl/new-orleans-saints.png",
     "star_players": ["Derek Carr", "Chris Olave"],
     "tier": "rookie",
     "distractors": {
@@ -523,7 +523,7 @@
     "lng": -82.5033,
     "conference": "NFC",
     "division": "NFC South",
-    "logo_url": "/assets/logos/nfl/buccaneers.png",
+    "logo_url": "/assets/logos/nfl/tampa-bay-buccaneers.png",
     "star_players": ["Baker Mayfield", "Mike Evans"],
     "tier": "rookie",
     "distractors": {
@@ -542,7 +542,7 @@
     "lng": -112.2626,
     "conference": "NFC",
     "division": "NFC West",
-    "logo_url": "/assets/logos/nfl/cardinals.png",
+    "logo_url": "/assets/logos/nfl/arizona-cardinals.png",
     "star_players": ["Kyler Murray", "Marvin Harrison Jr."],
     "tier": "rookie",
     "distractors": {
@@ -561,7 +561,7 @@
     "lng": -118.3392,
     "conference": "NFC",
     "division": "NFC West",
-    "logo_url": "/assets/logos/nfl/rams.png",
+    "logo_url": "/assets/logos/nfl/los-angeles-rams.png",
     "star_players": ["Matthew Stafford", "Puka Nacua"],
     "tier": "rookie",
     "distractors": {
@@ -580,7 +580,7 @@
     "lng": -121.9694,
     "conference": "NFC",
     "division": "NFC West",
-    "logo_url": "/assets/logos/nfl/49ers.png",
+    "logo_url": "/assets/logos/nfl/san-francisco-49ers.png",
     "star_players": ["Brock Purdy", "Nick Bosa"],
     "tier": "rookie",
     "distractors": {
@@ -599,7 +599,7 @@
     "lng": -122.3316,
     "conference": "NFC",
     "division": "NFC West",
-    "logo_url": "/assets/logos/nfl/seahawks.png",
+    "logo_url": "/assets/logos/nfl/seattle-seahawks.png",
     "star_players": ["Geno Smith", "DK Metcalf"],
     "tier": "rookie",
     "distractors": {

@@ -10,7 +10,7 @@
     "lng": -71.0621,
     "conference": "Eastern",
     "division": "Atlantic",
-    "logo_url": "/assets/logos/nba/celtics.png",
+    "logo_url": "/assets/logos/nba/boston-celtics.png",
     "star_players": ["Jayson Tatum", "Jaylen Brown"],
     "tier": "rookie",
     "distractors": {
@@ -29,7 +29,7 @@
     "lng": -73.9754,
     "conference": "Eastern",
     "division": "Atlantic",
-    "logo_url": "/assets/logos/nba/nets.png",
+    "logo_url": "/assets/logos/nba/brooklyn-nets.png",
     "star_players": ["Mikal Bridges", "Cameron Johnson"],
     "tier": "rookie",
     "distractors": {
@@ -48,7 +48,7 @@
     "lng": -73.9934,
     "conference": "Eastern",
     "division": "Atlantic",
-    "logo_url": "/assets/logos/nba/knicks.png",
+    "logo_url": "/assets/logos/nba/new-york-knicks.png",
     "star_players": ["Jalen Brunson", "Julius Randle"],
     "tier": "rookie",
     "distractors": {
@@ -67,7 +67,7 @@
     "lng": -75.1720,
     "conference": "Eastern",
     "division": "Atlantic",
-    "logo_url": "/assets/logos/nba/76ers.png",
+    "logo_url": "/assets/logos/nba/philadelphia-76ers.png",
     "star_players": ["Joel Embiid", "Tyrese Maxey"],
     "tier": "rookie",
     "distractors": {
@@ -86,7 +86,7 @@
     "lng": -79.3791,
     "conference": "Eastern",
     "division": "Atlantic",
-    "logo_url": "/assets/logos/nba/raptors.png",
+    "logo_url": "/assets/logos/nba/toronto-raptors.png",
     "star_players": ["Scottie Barnes", "RJ Barrett"],
     "tier": "rookie",
     "distractors": {
@@ -105,7 +105,7 @@
     "lng": -87.6742,
     "conference": "Eastern",
     "division": "Central",
-    "logo_url": "/assets/logos/nba/bulls.png",
+    "logo_url": "/assets/logos/nba/chicago-bulls.png",
     "star_players": ["Zach LaVine", "Coby White"],
     "tier": "rookie",
     "distractors": {
@@ -124,7 +124,7 @@
     "lng": -81.6882,
     "conference": "Eastern",
     "division": "Central",
-    "logo_url": "/assets/logos/nba/cavaliers.png",
+    "logo_url": "/assets/logos/nba/cleveland-cavaliers.png",
     "star_players": ["Donovan Mitchell", "Darius Garland"],
     "tier": "rookie",
     "distractors": {
@@ -143,7 +143,7 @@
     "lng": -83.0553,
     "conference": "Eastern",
     "division": "Central",
-    "logo_url": "/assets/logos/nba/pistons.png",
+    "logo_url": "/assets/logos/nba/detroit-pistons.png",
     "star_players": ["Cade Cunningham", "Jaden Ivey"],
     "tier": "rookie",
     "distractors": {
@@ -162,7 +162,7 @@
     "lng": -86.1555,
     "conference": "Eastern",
     "division": "Central",
-    "logo_url": "/assets/logos/nba/pacers.png",
+    "logo_url": "/assets/logos/nba/indiana-pacers.png",
     "star_players": ["Tyrese Haliburton", "Pascal Siakam"],
     "tier": "rookie",
     "distractors": {
@@ -181,7 +181,7 @@
     "lng": -87.9174,
     "conference": "Eastern",
     "division": "Central",
-    "logo_url": "/assets/logos/nba/bucks.png",
+    "logo_url": "/assets/logos/nba/milwaukee-bucks.png",
     "star_players": ["Giannis Antetokounmpo", "Damian Lillard"],
     "tier": "rookie",
     "distractors": {
@@ -200,7 +200,7 @@
     "lng": -84.3963,
     "conference": "Eastern",
     "division": "Southeast",
-    "logo_url": "/assets/logos/nba/hawks.png",
+    "logo_url": "/assets/logos/nba/atlanta-hawks.png",
     "star_players": ["Trae Young", "Dejounte Murray"],
     "tier": "rookie",
     "distractors": {
@@ -219,7 +219,7 @@
     "lng": -80.8392,
     "conference": "Eastern",
     "division": "Southeast",
-    "logo_url": "/assets/logos/nba/hornets.png",
+    "logo_url": "/assets/logos/nba/charlotte-hornets.png",
     "star_players": ["LaMelo Ball", "Brandon Miller"],
     "tier": "rookie",
     "distractors": {
@@ -238,7 +238,7 @@
     "lng": -80.1870,
     "conference": "Eastern",
     "division": "Southeast",
-    "logo_url": "/assets/logos/nba/heat.png",
+    "logo_url": "/assets/logos/nba/miami-heat.png",
     "star_players": ["Jimmy Butler", "Bam Adebayo"],
     "tier": "rookie",
     "distractors": {
@@ -257,7 +257,7 @@
     "lng": -81.3839,
     "conference": "Eastern",
     "division": "Southeast",
-    "logo_url": "/assets/logos/nba/magic.png",
+    "logo_url": "/assets/logos/nba/orlando-magic.png",
     "star_players": ["Paolo Banchero", "Franz Wagner"],
     "tier": "rookie",
     "distractors": {
@@ -276,7 +276,7 @@
     "lng": -77.0209,
     "conference": "Eastern",
     "division": "Southeast",
-    "logo_url": "/assets/logos/nba/wizards.png",
+    "logo_url": "/assets/logos/nba/washington-wizards.png",
     "star_players": ["Kyle Kuzma", "Jordan Poole"],
     "tier": "rookie",
     "distractors": {
@@ -295,7 +295,7 @@
     "lng": -105.0077,
     "conference": "Western",
     "division": "Northwest",
-    "logo_url": "/assets/logos/nba/nuggets.png",
+    "logo_url": "/assets/logos/nba/denver-nuggets.png",
     "star_players": ["Nikola Jokic", "Jamal Murray"],
     "tier": "rookie",
     "distractors": {
@@ -314,7 +314,7 @@
     "lng": -93.2761,
     "conference": "Western",
     "division": "Northwest",
-    "logo_url": "/assets/logos/nba/timberwolves.png",
+    "logo_url": "/assets/logos/nba/minnesota-timberwolves.png",
     "star_players": ["Anthony Edwards", "Karl-Anthony Towns"],
     "tier": "rookie",
     "distractors": {
@@ -333,7 +333,7 @@
     "lng": -97.5151,
     "conference": "Western",
     "division": "Northwest",
-    "logo_url": "/assets/logos/nba/thunder.png",
+    "logo_url": "/assets/logos/nba/oklahoma-city-thunder.png",
     "star_players": ["Shai Gilgeous-Alexander", "Chet Holmgren"],
     "tier": "rookie",
     "distractors": {
@@ -352,7 +352,7 @@
     "lng": -122.6668,
     "conference": "Western",
     "division": "Northwest",
-    "logo_url": "/assets/logos/nba/trail-blazers.png",
+    "logo_url": "/assets/logos/nba/portland-trail-blazers.png",
     "star_players": ["Anfernee Simons", "Scoot Henderson"],
     "tier": "rookie",
     "distractors": {
@@ -371,7 +371,7 @@
     "lng": -111.9011,
     "conference": "Western",
     "division": "Northwest",
-    "logo_url": "/assets/logos/nba/jazz.png",
+    "logo_url": "/assets/logos/nba/utah-jazz.png",
     "star_players": ["Lauri Markkanen", "Collin Sexton"],
     "tier": "rookie",
     "distractors": {
@@ -390,7 +390,7 @@
     "lng": -122.3879,
     "conference": "Western",
     "division": "Pacific",
-    "logo_url": "/assets/logos/nba/warriors.png",
+    "logo_url": "/assets/logos/nba/golden-state-warriors.png",
     "star_players": ["Stephen Curry", "Andrew Wiggins"],
     "tier": "rookie",
     "distractors": {
@@ -409,7 +409,7 @@
     "lng": -117.5981,
     "conference": "Western",
     "division": "Pacific",
-    "logo_url": "/assets/logos/nba/clippers.png",
+    "logo_url": "/assets/logos/nba/los-angeles-clippers.png",
     "star_players": ["Kawhi Leonard", "James Harden"],
     "tier": "rookie",
     "distractors": {
@@ -428,7 +428,7 @@
     "lng": -118.2673,
     "conference": "Western",
     "division": "Pacific",
-    "logo_url": "/assets/logos/nba/lakers.png",
+    "logo_url": "/assets/logos/nba/los-angeles-lakers.png",
     "star_players": ["LeBron James", "Anthony Davis"],
     "tier": "rookie",
     "distractors": {
@@ -447,7 +447,7 @@
     "lng": -112.0712,
     "conference": "Western",
     "division": "Pacific",
-    "logo_url": "/assets/logos/nba/suns.png",
+    "logo_url": "/assets/logos/nba/phoenix-suns.png",
     "star_players": ["Kevin Durant", "Devin Booker"],
     "tier": "rookie",
     "distractors": {
@@ -466,7 +466,7 @@
     "lng": -121.4997,
     "conference": "Western",
     "division": "Pacific",
-    "logo_url": "/assets/logos/nba/kings.png",
+    "logo_url": "/assets/logos/nba/sacramento-kings.png",
     "star_players": ["De'Aaron Fox", "Domantas Sabonis"],
     "tier": "rookie",
     "distractors": {
@@ -485,7 +485,7 @@
     "lng": -96.8103,
     "conference": "Western",
     "division": "Southwest",
-    "logo_url": "/assets/logos/nba/mavericks.png",
+    "logo_url": "/assets/logos/nba/dallas-mavericks.png",
     "star_players": ["Luka Doncic", "Kyrie Irving"],
     "tier": "rookie",
     "distractors": {
@@ -504,7 +504,7 @@
     "lng": -95.3621,
     "conference": "Western",
     "division": "Southwest",
-    "logo_url": "/assets/logos/nba/rockets.png",
+    "logo_url": "/assets/logos/nba/houston-rockets.png",
     "star_players": ["Jalen Green", "Alperen Sengun"],
     "tier": "rookie",
     "distractors": {
@@ -523,7 +523,7 @@
     "lng": -90.0506,
     "conference": "Western",
     "division": "Southwest",
-    "logo_url": "/assets/logos/nba/grizzlies.png",
+    "logo_url": "/assets/logos/nba/memphis-grizzlies.png",
     "star_players": ["Ja Morant", "Desmond Bane"],
     "tier": "rookie",
     "distractors": {
@@ -542,7 +542,7 @@
     "lng": -90.0821,
     "conference": "Western",
     "division": "Southwest",
-    "logo_url": "/assets/logos/nba/pelicans.png",
+    "logo_url": "/assets/logos/nba/new-orleans-pelicans.png",
     "star_players": ["Zion Williamson", "Brandon Ingram"],
     "tier": "rookie",
     "distractors": {
@@ -561,7 +561,7 @@
     "lng": -98.4375,
     "conference": "Western",
     "division": "Southwest",
-    "logo_url": "/assets/logos/nba/spurs.png",
+    "logo_url": "/assets/logos/nba/san-antonio-spurs.png",
     "star_players": ["Victor Wembanyama", "Devin Vassell"],
     "tier": "rookie",
     "distractors": {

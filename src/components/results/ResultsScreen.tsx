@@ -59,7 +59,7 @@ export function ResultsScreen() {
           <p className="text-xs text-chalk-muted">Correct</p>
         </div>
         <div className="rounded-2xl bg-white p-4 text-center shadow-sm">
-          <p className="text-2xl font-bold text-chalk-red">{10 - correct}</p>
+          <p className="text-2xl font-bold text-chalk-red">{Math.abs(10 - correct)}</p>
           <p className="text-xs text-chalk-muted">Wrong</p>
         </div>
         <div className="rounded-2xl bg-white p-4 text-center shadow-sm">

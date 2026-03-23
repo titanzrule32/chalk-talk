@@ -1,0 +1,610 @@
+[
+  {
+    "id": "nhl-001",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Anaheim Ducks",
+    "city": "Anaheim",
+    "state": "California",
+    "lat": 33.8078,
+    "lng": -117.8765,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nhl/anaheim-ducks.png",
+    "star_players": ["Troy Terry", "Leo Carlsson"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["San Jose", "Los Angeles", "San Diego", "Sacramento", "Phoenix"],
+      "teams": ["Sharks", "Kings", "Flames", "Stars"]
+    }
+  },
+  {
+    "id": "nhl-002",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Boston Bruins",
+    "city": "Boston",
+    "state": "Massachusetts",
+    "lat": 42.3662,
+    "lng": -71.0621,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nhl/boston-bruins.png",
+    "star_players": ["David Pastrnak", "Charlie McAvoy"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["New York", "Philadelphia", "Hartford", "Providence", "Montreal"],
+      "teams": ["Bruins", "Rangers", "Canadiens", "Sabres"]
+    }
+  },
+  {
+    "id": "nhl-003",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Buffalo Sabres",
+    "city": "Buffalo",
+    "state": "New York",
+    "lat": 42.8864,
+    "lng": -78.8784,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nhl/buffalo-sabres.png",
+    "star_players": ["Tage Thompson", "Rasmus Dahlin"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Rochester", "Toronto", "Syracuse", "Pittsburgh", "Detroit"],
+      "teams": ["Maple Leafs", "Senators", "Rangers", "Penguins"]
+    }
+  },
+  {
+    "id": "nhl-004",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Calgary Flames",
+    "city": "Calgary",
+    "state": "Alberta",
+    "lat": 51.0447,
+    "lng": -114.0719,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nhl/calgary-flames.png",
+    "star_players": ["Nazem Kadri", "Jonathan Huberdeau"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Edmonton", "Vancouver", "Winnipeg", "Seattle", "Denver"],
+      "teams": ["Oilers", "Canucks", "Jets", "Kraken"]
+    }
+  },
+  {
+    "id": "nhl-005",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Carolina Hurricanes",
+    "city": "Raleigh",
+    "state": "North Carolina",
+    "lat": 35.7796,
+    "lng": -78.6382,
+    "conference": "Eastern",
+    "division": "Metropolitan",
+    "logo_url": "/assets/logos/nhl/carolina-hurricanes.png",
+    "star_players": ["Sebastian Aho", "Andrei Svechnikov"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Charlotte", "Nashville", "Washington", "Richmond", "Atlanta"],
+      "teams": ["Capitals", "Predators", "Lightning", "Panthers"]
+    }
+  },
+  {
+    "id": "nhl-006",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Chicago Blackhawks",
+    "city": "Chicago",
+    "state": "Illinois",
+    "lat": 41.8807,
+    "lng": -87.6742,
+    "conference": "Western",
+    "division": "Central",
+    "logo_url": "/assets/logos/nhl/chicago-blackhawks.png",
+    "star_players": ["Connor Bedard", "Taylor Hall"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Detroit", "St. Louis", "Milwaukee", "Minneapolis", "Indianapolis"],
+      "teams": ["Red Wings", "Blues", "Wild", "Predators"]
+    }
+  },
+  {
+    "id": "nhl-007",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Colorado Avalanche",
+    "city": "Denver",
+    "state": "Colorado",
+    "lat": 39.7486,
+    "lng": -104.9994,
+    "conference": "Western",
+    "division": "Central",
+    "logo_url": "/assets/logos/nhl/colorado-avalanche.png",
+    "star_players": ["Nathan MacKinnon", "Cale Makar"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Salt Lake City", "Phoenix", "Dallas", "Kansas City", "Albuquerque"],
+      "teams": ["Stars", "Wild", "Blues", "Jets"]
+    }
+  },
+  {
+    "id": "nhl-008",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Columbus Blue Jackets",
+    "city": "Columbus",
+    "state": "Ohio",
+    "lat": 39.9690,
+    "lng": -83.0060,
+    "conference": "Eastern",
+    "division": "Metropolitan",
+    "logo_url": "/assets/logos/nhl/columbus-blue-jackets.png",
+    "star_players": ["Zach Werenski", "Kirill Marchenko"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Cleveland", "Cincinnati", "Pittsburgh", "Detroit", "Indianapolis"],
+      "teams": ["Penguins", "Red Wings", "Sabres", "Flyers"]
+    }
+  },
+  {
+    "id": "nhl-009",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Dallas Stars",
+    "city": "Dallas",
+    "state": "Texas",
+    "lat": 32.7903,
+    "lng": -96.8103,
+    "conference": "Western",
+    "division": "Central",
+    "logo_url": "/assets/logos/nhl/dallas-stars.png",
+    "star_players": ["Jason Robertson", "Roope Hintz"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Houston", "San Antonio", "Austin", "Oklahoma City", "Denver"],
+      "teams": ["Blackhawks", "Blues", "Predators", "Avalanche"]
+    }
+  },
+  {
+    "id": "nhl-010",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Detroit Red Wings",
+    "city": "Detroit",
+    "state": "Michigan",
+    "lat": 42.3411,
+    "lng": -83.0554,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nhl/detroit-red-wings.png",
+    "star_players": ["Dylan Larkin", "Lucas Raymond"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Chicago", "Cleveland", "Columbus", "Toronto", "Milwaukee"],
+      "teams": ["Blackhawks", "Blue Jackets", "Maple Leafs", "Sabres"]
+    }
+  },
+  {
+    "id": "nhl-011",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Edmonton Oilers",
+    "city": "Edmonton",
+    "state": "Alberta",
+    "lat": 53.5461,
+    "lng": -113.4937,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nhl/edmonton-oilers.png",
+    "star_players": ["Connor McDavid", "Leon Draisaitl"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Calgary", "Vancouver", "Winnipeg", "Seattle", "Minneapolis"],
+      "teams": ["Flames", "Canucks", "Jets", "Kraken"]
+    }
+  },
+  {
+    "id": "nhl-012",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Florida Panthers",
+    "city": "Sunrise",
+    "state": "Florida",
+    "lat": 26.1584,
+    "lng": -80.3256,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nhl/florida-panthers.png",
+    "star_players": ["Aleksander Barkov", "Matthew Tkachuk"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Miami", "Tampa", "Orlando", "Jacksonville", "Fort Lauderdale"],
+      "teams": ["Lightning", "Hurricanes", "Capitals", "Devils"]
+    }
+  },
+  {
+    "id": "nhl-013",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Los Angeles Kings",
+    "city": "Los Angeles",
+    "state": "California",
+    "lat": 34.0430,
+    "lng": -118.2673,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nhl/los-angeles-kings.png",
+    "star_players": ["Anze Kopitar", "Adrian Kempe"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Anaheim", "San Jose", "San Diego", "Phoenix", "Las Vegas"],
+      "teams": ["Ducks", "Sharks", "Golden Knights", "Kraken"]
+    }
+  },
+  {
+    "id": "nhl-014",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Minnesota Wild",
+    "city": "Saint Paul",
+    "state": "Minnesota",
+    "lat": 44.9448,
+    "lng": -93.1010,
+    "conference": "Western",
+    "division": "Central",
+    "logo_url": "/assets/logos/nhl/minnesota-wild.png",
+    "star_players": ["Kirill Kaprizov", "Matt Boldy"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Minneapolis", "Chicago", "Winnipeg", "Milwaukee", "Des Moines"],
+      "teams": ["Blackhawks", "Jets", "Blues", "Avalanche"]
+    }
+  },
+  {
+    "id": "nhl-015",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Montreal Canadiens",
+    "city": "Montreal",
+    "state": "Quebec",
+    "lat": 45.4961,
+    "lng": -73.5693,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nhl/montreal-canadiens.png",
+    "star_players": ["Nick Suzuki", "Cole Caufield"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Ottawa", "Toronto", "Quebec City", "Boston", "Buffalo"],
+      "teams": ["Senators", "Maple Leafs", "Bruins", "Sabres"]
+    }
+  },
+  {
+    "id": "nhl-016",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Nashville Predators",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "lat": 36.1591,
+    "lng": -86.7786,
+    "conference": "Western",
+    "division": "Central",
+    "logo_url": "/assets/logos/nhl/nashville-predators.png",
+    "star_players": ["Filip Forsberg", "Roman Josi"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Memphis", "Louisville", "Atlanta", "Charlotte", "St. Louis"],
+      "teams": ["Blues", "Stars", "Hurricanes", "Blackhawks"]
+    }
+  },
+  {
+    "id": "nhl-017",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "New Jersey Devils",
+    "city": "Newark",
+    "state": "New Jersey",
+    "lat": 40.7335,
+    "lng": -74.1712,
+    "conference": "Eastern",
+    "division": "Metropolitan",
+    "logo_url": "/assets/logos/nhl/new-jersey-devils.png",
+    "star_players": ["Jack Hughes", "Jesper Bratt"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["New York", "Philadelphia", "Trenton", "Hartford", "Boston"],
+      "teams": ["Rangers", "Islanders", "Flyers", "Penguins"]
+    }
+  },
+  {
+    "id": "nhl-018",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "New York Islanders",
+    "city": "Elmont",
+    "state": "New York",
+    "lat": 40.7166,
+    "lng": -73.7261,
+    "conference": "Eastern",
+    "division": "Metropolitan",
+    "logo_url": "/assets/logos/nhl/new-york-islanders.png",
+    "star_players": ["Mathew Barzal", "Bo Horvat"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["New York", "Newark", "Brooklyn", "Philadelphia", "Boston"],
+      "teams": ["Rangers", "Devils", "Flyers", "Penguins"]
+    }
+  },
+  {
+    "id": "nhl-019",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "New York Rangers",
+    "city": "New York",
+    "state": "New York",
+    "lat": 40.7505,
+    "lng": -73.9934,
+    "conference": "Eastern",
+    "division": "Metropolitan",
+    "logo_url": "/assets/logos/nhl/new-york-rangers.png",
+    "star_players": ["Artemi Panarin", "Adam Fox"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Newark", "Brooklyn", "Philadelphia", "Boston", "Washington"],
+      "teams": ["Islanders", "Devils", "Flyers", "Bruins"]
+    }
+  },
+  {
+    "id": "nhl-020",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Ottawa Senators",
+    "city": "Ottawa",
+    "state": "Ontario",
+    "lat": 45.2969,
+    "lng": -75.9269,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nhl/ottawa-senators.png",
+    "star_players": ["Brady Tkachuk", "Tim Stutzle"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Toronto", "Montreal", "Quebec City", "Buffalo", "Detroit"],
+      "teams": ["Maple Leafs", "Canadiens", "Sabres", "Bruins"]
+    }
+  },
+  {
+    "id": "nhl-021",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Philadelphia Flyers",
+    "city": "Philadelphia",
+    "state": "Pennsylvania",
+    "lat": 39.9012,
+    "lng": -75.1720,
+    "conference": "Eastern",
+    "division": "Metropolitan",
+    "logo_url": "/assets/logos/nhl/philadelphia-flyers.png",
+    "star_players": ["Travis Konecny", "Matvei Michkov"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["New York", "Newark", "Pittsburgh", "Washington", "Baltimore"],
+      "teams": ["Penguins", "Devils", "Rangers", "Capitals"]
+    }
+  },
+  {
+    "id": "nhl-022",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Pittsburgh Penguins",
+    "city": "Pittsburgh",
+    "state": "Pennsylvania",
+    "lat": 40.4395,
+    "lng": -79.9892,
+    "conference": "Eastern",
+    "division": "Metropolitan",
+    "logo_url": "/assets/logos/nhl/pittsburgh-penguins.png",
+    "star_players": ["Sidney Crosby", "Evgeni Malkin"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Philadelphia", "Columbus", "Buffalo", "Cleveland", "Washington"],
+      "teams": ["Flyers", "Blue Jackets", "Capitals", "Devils"]
+    }
+  },
+  {
+    "id": "nhl-023",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "San Jose Sharks",
+    "city": "San Jose",
+    "state": "California",
+    "lat": 37.3325,
+    "lng": -121.9013,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nhl/san-jose-sharks.png",
+    "star_players": ["Macklin Celebrini", "William Eklund"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["San Francisco", "Los Angeles", "Anaheim", "Sacramento", "Oakland"],
+      "teams": ["Kings", "Ducks", "Kraken", "Canucks"]
+    }
+  },
+  {
+    "id": "nhl-024",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Seattle Kraken",
+    "city": "Seattle",
+    "state": "Washington",
+    "lat": 47.6205,
+    "lng": -122.3509,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nhl/seattle-kraken.png",
+    "star_players": ["Matty Beniers", "Jared McCann"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Portland", "Vancouver", "San Francisco", "Sacramento", "Denver"],
+      "teams": ["Canucks", "Sharks", "Kings", "Oilers"]
+    }
+  },
+  {
+    "id": "nhl-025",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "St. Louis Blues",
+    "city": "St. Louis",
+    "state": "Missouri",
+    "lat": 38.6270,
+    "lng": -90.2028,
+    "conference": "Western",
+    "division": "Central",
+    "logo_url": "/assets/logos/nhl/st-louis-blues.png",
+    "star_players": ["Robert Thomas", "Jordan Kyrou"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Kansas City", "Chicago", "Nashville", "Dallas", "Denver"],
+      "teams": ["Blackhawks", "Predators", "Stars", "Wild"]
+    }
+  },
+  {
+    "id": "nhl-026",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Tampa Bay Lightning",
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9425,
+    "lng": -82.4519,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nhl/tampa-bay-lightning.png",
+    "star_players": ["Nikita Kucherov", "Brayden Point"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Miami", "Orlando", "Jacksonville", "Sunrise", "Atlanta"],
+      "teams": ["Panthers", "Hurricanes", "Capitals", "Devils"]
+    }
+  },
+  {
+    "id": "nhl-027",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Toronto Maple Leafs",
+    "city": "Toronto",
+    "state": "Ontario",
+    "lat": 43.6435,
+    "lng": -79.3791,
+    "conference": "Eastern",
+    "division": "Atlantic",
+    "logo_url": "/assets/logos/nhl/toronto-maple-leafs.png",
+    "star_players": ["Auston Matthews", "Mitch Marner"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Ottawa", "Montreal", "Buffalo", "Detroit", "Boston"],
+      "teams": ["Senators", "Canadiens", "Sabres", "Red Wings"]
+    }
+  },
+  {
+    "id": "nhl-028",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Utah Mammoth",
+    "city": "Salt Lake City",
+    "state": "Utah",
+    "lat": 40.7683,
+    "lng": -111.9011,
+    "conference": "Western",
+    "division": "Central",
+    "logo_url": "/assets/logos/nhl/utah-mammoth.png",
+    "star_players": ["Clayton Keller", "Barrett Hayton"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Denver", "Phoenix", "Las Vegas", "Boise", "Albuquerque"],
+      "teams": ["Avalanche", "Golden Knights", "Stars", "Wild"]
+    }
+  },
+  {
+    "id": "nhl-029",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Vancouver Canucks",
+    "city": "Vancouver",
+    "state": "British Columbia",
+    "lat": 49.2778,
+    "lng": -123.1089,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nhl/vancouver-canucks.png",
+    "star_players": ["Elias Pettersson", "Quinn Hughes"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Seattle", "Calgary", "Edmonton", "Portland", "Victoria"],
+      "teams": ["Kraken", "Flames", "Oilers", "Sharks"]
+    }
+  },
+  {
+    "id": "nhl-030",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Vegas Golden Knights",
+    "city": "Las Vegas",
+    "state": "Nevada",
+    "lat": 36.1029,
+    "lng": -115.1784,
+    "conference": "Western",
+    "division": "Pacific",
+    "logo_url": "/assets/logos/nhl/vegas-golden-knights.png",
+    "star_players": ["Jack Eichel", "Mark Stone"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Phoenix", "Los Angeles", "Denver", "Salt Lake City", "San Diego"],
+      "teams": ["Kings", "Ducks", "Sharks", "Avalanche"]
+    }
+  },
+  {
+    "id": "nhl-031",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Washington Capitals",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "lat": 38.8981,
+    "lng": -77.0209,
+    "conference": "Eastern",
+    "division": "Metropolitan",
+    "logo_url": "/assets/logos/nhl/washington-capitals.png",
+    "star_players": ["Alexander Ovechkin", "Dylan Strome"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Baltimore", "Philadelphia", "Richmond", "Raleigh", "Pittsburgh"],
+      "teams": ["Penguins", "Flyers", "Hurricanes", "Devils"]
+    }
+  },
+  {
+    "id": "nhl-032",
+    "sport": "hockey",
+    "league": "NHL",
+    "team_name": "Winnipeg Jets",
+    "city": "Winnipeg",
+    "state": "Manitoba",
+    "lat": 49.8928,
+    "lng": -97.1438,
+    "conference": "Western",
+    "division": "Central",
+    "logo_url": "/assets/logos/nhl/winnipeg-jets.png",
+    "star_players": ["Kyle Connor", "Mark Scheifele"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Edmonton", "Calgary", "Minneapolis", "Chicago", "Vancouver"],
+      "teams": ["Oilers", "Flames", "Wild", "Blackhawks"]
+    }
+  }
+]

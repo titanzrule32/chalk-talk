@@ -1,0 +1,572 @@
+[
+  {
+    "id": "mls-001",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Atlanta United",
+    "city": "Atlanta",
+    "state": "Georgia",
+    "lat": 33.7553,
+    "lng": -84.4006,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/atlanta-united.png",
+    "star_players": ["Thiago Almada", "Saba Lobjanidze"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Charlotte", "Nashville", "Orlando", "Miami", "Tampa"],
+      "teams": ["Charlotte FC", "Nashville SC", "Orlando City", "Inter Miami"]
+    }
+  },
+  {
+    "id": "mls-002",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Austin FC",
+    "city": "Austin",
+    "state": "Texas",
+    "lat": 30.3882,
+    "lng": -97.7195,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/austin-fc.png",
+    "star_players": ["Sebastian Driussi", "Osman Bukari"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Dallas", "Houston", "San Antonio", "Denver", "Kansas City"],
+      "teams": ["FC Dallas", "Houston Dynamo", "Sporting Kansas City", "Colorado Rapids"]
+    }
+  },
+  {
+    "id": "mls-003",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "CF Montréal",
+    "city": "Montreal",
+    "state": "Quebec",
+    "lat": 45.5630,
+    "lng": -73.5526,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/cf-montr-al.png",
+    "star_players": ["Mathieu Choiniere", "Bryce Duke"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Toronto", "Ottawa", "Quebec City", "New York", "Boston"],
+      "teams": ["Toronto FC", "New England Revolution", "New York City FC", "New York Red Bulls"]
+    }
+  },
+  {
+    "id": "mls-004",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Charlotte FC",
+    "city": "Charlotte",
+    "state": "North Carolina",
+    "lat": 35.2258,
+    "lng": -80.8528,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/charlotte-fc.png",
+    "star_players": ["Karol Swiderski", "Liel Abada"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Raleigh", "Atlanta", "Nashville", "Washington", "Richmond"],
+      "teams": ["Atlanta United", "Nashville SC", "DC United", "Orlando City"]
+    }
+  },
+  {
+    "id": "mls-005",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Chicago Fire",
+    "city": "Chicago",
+    "state": "Illinois",
+    "lat": 41.8623,
+    "lng": -87.6167,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/chicago-fire.png",
+    "star_players": ["Xherdan Shaqiri", "Hugo Cuypers"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Columbus", "Detroit", "Milwaukee", "Minneapolis", "St. Louis"],
+      "teams": ["Columbus Crew", "Minnesota United", "Sporting Kansas City", "St. Louis City SC"]
+    }
+  },
+  {
+    "id": "mls-006",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Colorado Rapids",
+    "city": "Commerce City",
+    "state": "Colorado",
+    "lat": 39.8056,
+    "lng": -104.8920,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/colorado-rapids.png",
+    "star_players": ["Djordje Mihailovic", "Rafael Navarro"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Denver", "Salt Lake City", "Austin", "Dallas", "Kansas City"],
+      "teams": ["Real Salt Lake", "Austin FC", "Sporting Kansas City", "FC Dallas"]
+    }
+  },
+  {
+    "id": "mls-007",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Columbus Crew",
+    "city": "Columbus",
+    "state": "Ohio",
+    "lat": 39.9685,
+    "lng": -83.0174,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/columbus-crew.png",
+    "star_players": ["Cucho Hernandez", "Diego Rossi"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Cincinnati", "Cleveland", "Chicago", "Pittsburgh", "Detroit"],
+      "teams": ["FC Cincinnati", "Chicago Fire", "Philadelphia Union", "DC United"]
+    }
+  },
+  {
+    "id": "mls-008",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "DC United",
+    "city": "Washington",
+    "state": "District of Columbia",
+    "lat": 38.8686,
+    "lng": -77.0129,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/dc-united.png",
+    "star_players": ["Christian Benteke", "Russell Canouse"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Baltimore", "Philadelphia", "Richmond", "Charlotte", "Raleigh"],
+      "teams": ["Philadelphia Union", "Charlotte FC", "New York Red Bulls", "New York City FC"]
+    }
+  },
+  {
+    "id": "mls-009",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "FC Cincinnati",
+    "city": "Cincinnati",
+    "state": "Ohio",
+    "lat": 39.1095,
+    "lng": -84.5211,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/fc-cincinnati.png",
+    "star_players": ["Luciano Acosta", "Luca Orellano"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Columbus", "Louisville", "Indianapolis", "Cleveland", "Pittsburgh"],
+      "teams": ["Columbus Crew", "Chicago Fire", "Nashville SC", "Philadelphia Union"]
+    }
+  },
+  {
+    "id": "mls-010",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "FC Dallas",
+    "city": "Frisco",
+    "state": "Texas",
+    "lat": 33.1543,
+    "lng": -96.8352,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/fc-dallas.png",
+    "star_players": ["Jesus Ferreira", "Paul Arriola"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Dallas", "Houston", "Austin", "San Antonio", "Oklahoma City"],
+      "teams": ["Houston Dynamo", "Austin FC", "Sporting Kansas City", "Colorado Rapids"]
+    }
+  },
+  {
+    "id": "mls-011",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Houston Dynamo",
+    "city": "Houston",
+    "state": "Texas",
+    "lat": 29.7522,
+    "lng": -95.3544,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/houston-dynamo.png",
+    "star_players": ["Hector Herrera", "Coco Carrasquilla"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Dallas", "Austin", "San Antonio", "New Orleans", "Oklahoma City"],
+      "teams": ["FC Dallas", "Austin FC", "Sporting Kansas City", "Colorado Rapids"]
+    }
+  },
+  {
+    "id": "mls-012",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Inter Miami",
+    "city": "Fort Lauderdale",
+    "state": "Florida",
+    "lat": 26.1929,
+    "lng": -80.1599,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/inter-miami.png",
+    "star_players": ["Lionel Messi", "Luis Suarez"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Miami", "Orlando", "Tampa", "Jacksonville", "Atlanta"],
+      "teams": ["Orlando City", "Atlanta United", "Nashville SC", "Charlotte FC"]
+    }
+  },
+  {
+    "id": "mls-013",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "LA Galaxy",
+    "city": "Carson",
+    "state": "California",
+    "lat": 33.8644,
+    "lng": -118.2611,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/la-galaxy.png",
+    "star_players": ["Riqui Puig", "Joseph Paintsil"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Los Angeles", "San Diego", "San Jose", "Anaheim", "Sacramento"],
+      "teams": ["Los Angeles FC", "San Jose Earthquakes", "San Diego FC", "Portland Timbers"]
+    }
+  },
+  {
+    "id": "mls-014",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Los Angeles FC",
+    "city": "Los Angeles",
+    "state": "California",
+    "lat": 34.0128,
+    "lng": -118.2847,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/los-angeles-fc.png",
+    "star_players": ["Denis Bouanga", "Timothy Tillman"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Carson", "San Diego", "San Jose", "Anaheim", "Sacramento"],
+      "teams": ["LA Galaxy", "San Jose Earthquakes", "San Diego FC", "Portland Timbers"]
+    }
+  },
+  {
+    "id": "mls-015",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Minnesota United",
+    "city": "Saint Paul",
+    "state": "Minnesota",
+    "lat": 44.9531,
+    "lng": -93.1654,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/minnesota-united.png",
+    "star_players": ["Robin Lod", "Teemu Pukki"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Minneapolis", "Chicago", "Milwaukee", "Des Moines", "Kansas City"],
+      "teams": ["Chicago Fire", "Sporting Kansas City", "St. Louis City SC", "Colorado Rapids"]
+    }
+  },
+  {
+    "id": "mls-016",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Nashville SC",
+    "city": "Nashville",
+    "state": "Tennessee",
+    "lat": 36.1743,
+    "lng": -86.7680,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/nashville-sc.png",
+    "star_players": ["Hany Mukhtar", "Walker Zimmerman"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Memphis", "Atlanta", "Louisville", "Charlotte", "St. Louis"],
+      "teams": ["Atlanta United", "Charlotte FC", "FC Cincinnati", "Columbus Crew"]
+    }
+  },
+  {
+    "id": "mls-017",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "New England Revolution",
+    "city": "Foxborough",
+    "state": "Massachusetts",
+    "lat": 42.0909,
+    "lng": -71.2643,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/new-england-revolution.png",
+    "star_players": ["Carles Gil", "Giacomo Vrioni"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Boston", "Providence", "Hartford", "New York", "Philadelphia"],
+      "teams": ["New York City FC", "New York Red Bulls", "Philadelphia Union", "CF Montréal"]
+    }
+  },
+  {
+    "id": "mls-018",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "New York City FC",
+    "city": "New York",
+    "state": "New York",
+    "lat": 40.6829,
+    "lng": -73.9764,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/new-york-city-fc.png",
+    "star_players": ["Santiago Rodriguez", "Alonso Martinez"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Newark", "Philadelphia", "Boston", "Hartford", "Washington"],
+      "teams": ["New York Red Bulls", "New England Revolution", "Philadelphia Union", "DC United"]
+    }
+  },
+  {
+    "id": "mls-019",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "New York Red Bulls",
+    "city": "Harrison",
+    "state": "New Jersey",
+    "lat": 40.7372,
+    "lng": -74.1502,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/new-york-red-bulls.png",
+    "star_players": ["Lewis Morgan", "Emil Forsberg"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["New York", "Newark", "Philadelphia", "Boston", "Washington"],
+      "teams": ["New York City FC", "New England Revolution", "Philadelphia Union", "DC United"]
+    }
+  },
+  {
+    "id": "mls-020",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Orlando City",
+    "city": "Orlando",
+    "state": "Florida",
+    "lat": 28.5411,
+    "lng": -81.3894,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/orlando-city.png",
+    "star_players": ["Facundo Torres", "Martin Ojeda"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Miami", "Tampa", "Jacksonville", "Atlanta", "Fort Lauderdale"],
+      "teams": ["Inter Miami", "Atlanta United", "Nashville SC", "Charlotte FC"]
+    }
+  },
+  {
+    "id": "mls-021",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Philadelphia Union",
+    "city": "Chester",
+    "state": "Pennsylvania",
+    "lat": 39.8328,
+    "lng": -75.3789,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/philadelphia-union.png",
+    "star_players": ["Daniel Gazdag", "Kai Wagner"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Philadelphia", "New York", "Washington", "Baltimore", "Newark"],
+      "teams": ["New York City FC", "New York Red Bulls", "DC United", "New England Revolution"]
+    }
+  },
+  {
+    "id": "mls-022",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Portland Timbers",
+    "city": "Portland",
+    "state": "Oregon",
+    "lat": 45.5218,
+    "lng": -122.6899,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/portland-timbers.png",
+    "star_players": ["Evander", "Jonathan Rodriguez"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Seattle", "Vancouver", "San Francisco", "Sacramento", "Salt Lake City"],
+      "teams": ["Seattle Sounders", "Vancouver Whitecaps", "San Jose Earthquakes", "LA Galaxy"]
+    }
+  },
+  {
+    "id": "mls-023",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Real Salt Lake",
+    "city": "Sandy",
+    "state": "Utah",
+    "lat": 40.5829,
+    "lng": -111.8933,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/real-salt-lake.png",
+    "star_players": ["Chicho Arango", "Diego Luna"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Salt Lake City", "Denver", "Las Vegas", "Phoenix", "Boise"],
+      "teams": ["Colorado Rapids", "LA Galaxy", "Los Angeles FC", "Portland Timbers"]
+    }
+  },
+  {
+    "id": "mls-024",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "San Diego FC",
+    "city": "San Diego",
+    "state": "California",
+    "lat": 32.7157,
+    "lng": -117.1611,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/san-diego-fc.png",
+    "star_players": ["Hirving Lozano", "Marcus Ingvartsen"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Los Angeles", "Anaheim", "Carson", "Phoenix", "Las Vegas"],
+      "teams": ["LA Galaxy", "Los Angeles FC", "San Jose Earthquakes", "Portland Timbers"]
+    }
+  },
+  {
+    "id": "mls-025",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "San Jose Earthquakes",
+    "city": "San Jose",
+    "state": "California",
+    "lat": 37.3517,
+    "lng": -121.9250,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/san-jose-earthquakes.png",
+    "star_players": ["Cristian Espinoza", "Jeremy Ebobisse"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["San Francisco", "Los Angeles", "Sacramento", "Oakland", "Portland"],
+      "teams": ["LA Galaxy", "Los Angeles FC", "Portland Timbers", "Seattle Sounders"]
+    }
+  },
+  {
+    "id": "mls-026",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Seattle Sounders",
+    "city": "Seattle",
+    "state": "Washington",
+    "lat": 47.5952,
+    "lng": -122.3316,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/seattle-sounders.png",
+    "star_players": ["Jordan Morris", "Albert Rusnak"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Portland", "Vancouver", "San Francisco", "Sacramento", "Denver"],
+      "teams": ["Portland Timbers", "Vancouver Whitecaps", "San Jose Earthquakes", "LA Galaxy"]
+    }
+  },
+  {
+    "id": "mls-027",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Sporting Kansas City",
+    "city": "Kansas City",
+    "state": "Kansas",
+    "lat": 39.1215,
+    "lng": -94.8232,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/sporting-kansas-city.png",
+    "star_players": ["Daniel Salloi", "Alan Pulido"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["St. Louis", "Denver", "Dallas", "Minneapolis", "Omaha"],
+      "teams": ["St. Louis City SC", "Colorado Rapids", "FC Dallas", "Minnesota United"]
+    }
+  },
+  {
+    "id": "mls-028",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "St. Louis City SC",
+    "city": "St. Louis",
+    "state": "Missouri",
+    "lat": 38.6319,
+    "lng": -90.2086,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/st-louis-city-sc.png",
+    "star_players": ["Joao Klauss", "Eduard Lowen"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Kansas City", "Chicago", "Nashville", "Indianapolis", "Memphis"],
+      "teams": ["Sporting Kansas City", "Chicago Fire", "Nashville SC", "Colorado Rapids"]
+    }
+  },
+  {
+    "id": "mls-029",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Toronto FC",
+    "city": "Toronto",
+    "state": "Ontario",
+    "lat": 43.6332,
+    "lng": -79.4185,
+    "conference": "Eastern Conference",
+    "division": "Eastern Conference",
+    "logo_url": "/assets/logos/mls/toronto-fc.png",
+    "star_players": ["Lorenzo Insigne", "Federico Bernardeschi"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Montreal", "Ottawa", "Buffalo", "Detroit", "Columbus"],
+      "teams": ["CF Montréal", "Columbus Crew", "New York City FC", "New England Revolution"]
+    }
+  },
+  {
+    "id": "mls-030",
+    "sport": "soccer",
+    "league": "MLS",
+    "team_name": "Vancouver Whitecaps",
+    "city": "Vancouver",
+    "state": "British Columbia",
+    "lat": 49.2766,
+    "lng": -123.1118,
+    "conference": "Western Conference",
+    "division": "Western Conference",
+    "logo_url": "/assets/logos/mls/vancouver-whitecaps.png",
+    "star_players": ["Ryan Gauld", "Brian White"],
+    "tier": "pro",
+    "distractors": {
+      "cities": ["Seattle", "Portland", "Calgary", "Edmonton", "Victoria"],
+      "teams": ["Seattle Sounders", "Portland Timbers", "San Jose Earthquakes", "LA Galaxy"]
+    }
+  }
+]
