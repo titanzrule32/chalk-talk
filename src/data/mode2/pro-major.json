@@ -521,16 +521,16 @@
   },
   {
     "id": "m2-pro-nfl-041",
-    "question": "Which Cleveland Browns star broke the NFL single-season sack record in 2024?",
+    "question": "Which Cleveland Browns star set the NFL single-season sack record with 23 sacks in the 2024-25 season?",
     "options": ["Myles Garrett", "T.J. Watt", "Micah Parsons", "Nick Bosa"],
     "correct_answer": "Myles Garrett",
-    "explanation": "Myles Garrett broke Michael Strahan's long-standing single-season sack record in 2024!",
+    "explanation": "Myles Garrett recorded 23 sacks to break the old record of 22.5, getting his record-breaking sack against Joe Burrow in Week 18!",
     "league": "NFL",
     "season": "2024-25",
     "category": "records",
     "tier": "pro",
     "date_added": "2025-03-23",
-    "source_year": 2024
+    "source_year": 2025
   },
   {
     "id": "m2-pro-nfl-042",

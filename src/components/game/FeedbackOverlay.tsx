@@ -11,7 +11,7 @@ export function FeedbackOverlay({
   correct,
   message,
   onComplete,
-  duration = 1200,
+  duration = 3200,
 }: FeedbackOverlayProps) {
   useEffect(() => {
     const timer = setTimeout(onComplete, duration);
