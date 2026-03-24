@@ -1,11 +1,15 @@
+import { useEffect, useRef } from 'react';
 import { useSearchParams, useNavigate } from 'react-router-dom';
 import { usePlayer } from '../../context/PlayerContext';
 import { Button } from '../shared/Button';
+import { useAppSounds } from '../../hooks/useAppSounds';
 
 export function ResultsScreen() {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const { activePlayer } = usePlayer();
+  const { playCheer, playTrumpet } = useAppSounds();
+  const soundPlayedRef = useRef(false);
 
   const mode = Number(searchParams.get('mode')) as 1 | 2;
   const score = Number(searchParams.get('score') ?? 0);
@@ -22,6 +26,17 @@ export function ResultsScreen() {
 
   const percentage = total > 0 ? Math.round((score / total) * 100) : 0;
   const modeLabel = mode === 1 ? 'Geography Quiz' : 'Sports Knowledge';
+
+  useEffect(() => {
+    if (soundPlayedRef.current) return;
+    soundPlayedRef.current = true;
+    if (percentage >= 70) {
+      playTrumpet();
+      setTimeout(() => playCheer(), 500);
+    } else if (percentage >= 30) {
+      playCheer();
+    }
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   let message = 'Keep trying!';
   if (percentage >= 90) message = 'Amazing job!';

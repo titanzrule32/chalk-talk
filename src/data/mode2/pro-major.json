@@ -40,16 +40,16 @@
   },
   {
     "id": "m2-pro-nfl-004",
-    "question": "Which running back set the single-season rushing record with 2,105 yards in 2003?",
-    "options": ["Jamal Lewis", "LaDainian Tomlinson", "Barry Sanders", "Adrian Peterson"],
-    "correct_answer": "Jamal Lewis",
-    "explanation": "Jamal Lewis of the Baltimore Ravens rushed for 2,105 yards in the 2003 season!",
+    "question": "Which Eagles running back rushed for over 2,000 yards in the 2024 season, joining a very exclusive club?",
+    "options": ["Saquon Barkley", "Derrick Henry", "Josh Jacobs", "Jonathan Taylor"],
+    "correct_answer": "Saquon Barkley",
+    "explanation": "Saquon Barkley rushed for over 2,000 yards in his first season with the Eagles, one of the rare 2,000-yard rushers ever!",
     "league": "NFL",
     "season": "2024-25",
     "category": "records",
     "tier": "pro",
-    "date_added": "2025-03-23",
-    "source_year": 2024
+    "date_added": "2025-03-24",
+    "source_year": 2025
   },
   {
     "id": "m2-pro-nfl-005",
@@ -417,16 +417,16 @@
   },
   {
     "id": "m2-pro-nfl-033",
-    "question": "Which kicker made the longest field goal in NFL history at 66 yards?",
-    "options": ["Justin Tucker", "Harrison Butker", "Matt Prater", "Adam Vinatieri"],
-    "correct_answer": "Justin Tucker",
-    "explanation": "Justin Tucker of the Baltimore Ravens kicked a 66-yard field goal in 2021, the longest ever in the NFL!",
+    "question": "Which kicker set the record for the longest field goal in NFL history at 68 yards in 2025?",
+    "options": ["Cam Little", "Justin Tucker", "Harrison Butker", "Matt Prater"],
+    "correct_answer": "Cam Little",
+    "explanation": "Cam Little kicked a 68-yard field goal in 2025, breaking Justin Tucker's previous record of 66 yards!",
     "league": "NFL",
     "season": "2024-25",
     "category": "records",
     "tier": "pro",
-    "date_added": "2025-03-23",
-    "source_year": 2024
+    "date_added": "2025-03-24",
+    "source_year": 2025
   },
   {
     "id": "m2-pro-nfl-034",
@@ -755,16 +755,16 @@
   },
   {
     "id": "m2-pro-nba-001",
-    "question": "Which player scored 70 points in a single game in 2024, the most in decades?",
-    "options": ["Devin Booker", "Luka Doncic", "Joel Embiid", "Donovan Mitchell"],
-    "correct_answer": "Devin Booker",
-    "explanation": "Devin Booker of the Phoenix Suns scored 70 points against the Celtics in March 2024!",
+    "question": "Which Heat center scored 83 points in a single game in March 2026, the most since Wilt Chamberlain?",
+    "options": ["Bam Adebayo", "Joel Embiid", "Nikola Jokic", "Anthony Davis"],
+    "correct_answer": "Bam Adebayo",
+    "explanation": "Bam Adebayo scored 83 points against the Wizards on March 10, 2026 — the second-most in NBA history behind Wilt's 100!",
     "league": "NBA",
-    "season": "2023-24",
+    "season": "2025-26",
     "category": "records",
     "tier": "pro",
-    "date_added": "2025-03-23",
-    "source_year": 2024
+    "date_added": "2025-03-24",
+    "source_year": 2026
   },
   {
     "id": "m2-pro-nba-002",
@@ -1262,16 +1262,16 @@
   },
   {
     "id": "m2-pro-nba-040",
-    "question": "Which player holds the record for most points in an NBA All-Star Game with 50?",
-    "options": ["Anthony Davis", "Russell Westbrook", "LeBron James", "Giannis Antetokounmpo"],
-    "correct_answer": "Anthony Davis",
-    "explanation": "Anthony Davis scored 52 points in the 2017 All-Star Game in New Orleans, setting the All-Star Game scoring record!",
+    "question": "Which player set the NBA All-Star Game scoring record with 55 points in the 2023 All-Star Game?",
+    "options": ["Jayson Tatum", "Anthony Davis", "Giannis Antetokounmpo", "LeBron James"],
+    "correct_answer": "Jayson Tatum",
+    "explanation": "Jayson Tatum scored 55 points in the 2023 NBA All-Star Game, breaking Anthony Davis's previous record of 52!",
     "league": "NBA",
-    "season": "2024-25",
+    "season": "2022-23",
     "category": "records",
     "tier": "pro",
-    "date_added": "2025-03-23",
-    "source_year": 2024
+    "date_added": "2025-03-24",
+    "source_year": 2023
   },
   {
     "id": "m2-pro-nba-041",

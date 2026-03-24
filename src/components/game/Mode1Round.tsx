@@ -7,6 +7,7 @@ import { AnswerButton } from './AnswerButton';
 import { FeedbackOverlay } from './FeedbackOverlay';
 import { ScoreBar } from './ScoreBar';
 import { scoreMode1City, scoreMode1Team } from '../../utils/scoring';
+import { useAppSounds } from '../../hooks/useAppSounds';
 
 interface Mode1RoundProps {
   questionIds: string[];
@@ -27,6 +28,7 @@ export function Mode1Round({
   onQuestionComplete,
   onNextQuestion,
 }: Mode1RoundProps) {
+  const { playCorrect, playWrong } = useAppSounds();
   const [phase, setPhase] = useState<Phase>('pick-city');
   const [cityAttempts, setCityAttempts] = useState(0);
   const [cityCorrect, setCityCorrect] = useState(false);
@@ -84,12 +86,14 @@ export function Mode1Round({
 
     if (correct) {
       setCityCorrect(true);
+      playCorrect();
       setTimeout(() => {
         setPhase('pick-team');
         setSelectedCity(null);
         setIsProcessing(false);
       }, 800);
     } else {
+      playWrong();
       if (newAttempts >= 3) {
         setTimeout(() => {
           setPhase('city-feedback');
@@ -109,6 +113,9 @@ export function Mode1Round({
     setSelectedTeam(answer);
     const correct = answer === question.team_name;
     setLastTeamCorrect(correct);
+
+    if (correct) playCorrect();
+    else playWrong();
 
     // Report to engine with accumulated city state
     onQuestionComplete(cityAttempts, cityCorrect, correct);

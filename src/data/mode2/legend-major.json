@@ -820,16 +820,16 @@
   },
   {
     "id": "m2-legend-nba-020",
-    "question": "Which player scored 73 points in a single game in 2024, one of the highest totals ever?",
-    "options": ["Devin Booker", "Luka Doncic", "Joel Embiid", "Shai Gilgeous-Alexander"],
-    "correct_answer": "Devin Booker",
-    "explanation": "Devin Booker erupted for 73 points, matching Wilt Chamberlain's franchise record for the most in Suns history!",
+    "question": "Which Miami Heat center scored 83 points in a game in March 2026, the most by anyone since Wilt Chamberlain?",
+    "options": ["Bam Adebayo", "Jimmy Butler", "Tyler Herro", "Joel Embiid"],
+    "correct_answer": "Bam Adebayo",
+    "explanation": "Bam Adebayo scored 83 points against the Wizards on March 10, 2026 — only Wilt Chamberlain's 100 points is higher!",
     "league": "NBA",
-    "season": "2023-24",
+    "season": "2025-26",
     "category": "records",
     "tier": "legend",
-    "date_added": "2025-03-23",
-    "source_year": 2024
+    "date_added": "2025-03-24",
+    "source_year": 2026
   },
   {
     "id": "m2-legend-nba-021",
@@ -1769,10 +1769,10 @@
   },
   {
     "id": "m2-legend-nhl-005",
-    "question": "Which player is chasing Wayne Gretzky's all-time goal record and already has the most power-play goals ever?",
+    "question": "Which Capitals legend surpassed Wayne Gretzky's all-time NHL goal record in 2025?",
     "options": ["Alexander Ovechkin", "Sidney Crosby", "Connor McDavid", "Steven Stamkos"],
     "correct_answer": "Alexander Ovechkin",
-    "explanation": "Alex Ovechkin has been closing in on Gretzky's 894-goal record — every goal he scores makes history!",
+    "explanation": "Alex Ovechkin passed Gretzky's 894 career goals to become the NHL's all-time leading goal scorer!",
     "league": "NHL",
     "season": "2024-25",
     "category": "records",
@@ -2198,7 +2198,7 @@
   },
   {
     "id": "m2-legend-nhl-038",
-    "question": "Which defenseman had 103 points in the 2022-23 season for the San Jose Sharks?",
+    "question": "Which defenseman had 101 points in the 2022-23 season for the San Jose Sharks, earning the Norris Trophy?",
     "options": ["Erik Karlsson", "Cale Makar", "Roman Josi", "Adam Fox"],
     "correct_answer": "Erik Karlsson",
     "explanation": "Erik Karlsson's 101-point season was one of the best by a defenseman in decades, earning him the Norris Trophy!",

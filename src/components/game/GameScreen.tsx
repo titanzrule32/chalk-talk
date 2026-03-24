@@ -8,6 +8,7 @@ import { useGameEngine } from '../../hooks/useGameEngine';
 import { Mode1Round } from './Mode1Round';
 import { Mode2Round } from './Mode2Round';
 import { ROUND_SIZE, MODE1_MAX_ROUND } from '../../utils/scoring';
+import { useAppSounds } from '../../hooks/useAppSounds';
 
 interface GameScreenProps {
   mode: GameMode;
@@ -17,6 +18,7 @@ export function GameScreen({ mode }: GameScreenProps) {
   const navigate = useNavigate();
   const { activePlayer, updateAfterRound } = usePlayer();
   const engine = useGameEngine();
+  const { playWhistle, playFanfare } = useAppSounds();
   const [initialized, setInitialized] = useState(false);
   const [newSeenIds, setNewSeenIds] = useState<string[]>([]);
   const completedRef = useRef(false);
@@ -44,6 +46,7 @@ export function GameScreen({ mode }: GameScreenProps) {
     engine.startRound(mode, selectedIds);
     setInitialized(true);
     completedRef.current = false;
+    playWhistle();
   }, [activePlayer, mode, initialized, navigate, engine]);
 
   // Handle round completion
@@ -53,6 +56,7 @@ export function GameScreen({ mode }: GameScreenProps) {
 
     // Prevent double-firing (React StrictMode)
     completedRef.current = true;
+    playFanfare();
 
     const correct = gs.answers.filter((a) => a.correct).length;
     const seenIds = newSeenIds.length > 0

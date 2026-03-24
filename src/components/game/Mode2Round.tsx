@@ -7,6 +7,7 @@ import { FeedbackOverlay } from './FeedbackOverlay';
 import { ScoreBar } from './ScoreBar';
 import { LifelineBar } from './LifelineBar';
 import { usePlayer } from '../../context/PlayerContext';
+import { useAppSounds } from '../../hooks/useAppSounds';
 
 interface Mode2RoundProps {
   questionIds: string[];
@@ -34,6 +35,7 @@ export function Mode2Round({
   usedHalfCourtOnCurrent,
 }: Mode2RoundProps) {
   const { activePlayer } = usePlayer();
+  const { playCorrect, playWrong, playClick } = useAppSounds();
   const [showFeedback, setShowFeedback] = useState(false);
   const [lastCorrect, setLastCorrect] = useState(false);
   const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
@@ -68,6 +70,9 @@ export function Mode2Round({
     setLastCorrect(correct);
     onAnswer(correct);
 
+    if (correct) playCorrect();
+    else playWrong();
+
     setTimeout(() => {
       setShowFeedback(true);
     }, 600);
@@ -75,6 +80,7 @@ export function Mode2Round({
 
   const handleHalfCourt = () => {
     if (isProcessing || lifelinesUsed.halfCourt) return;
+    playClick();
     onHalfCourt();
 
     // Remove 2 wrong options
@@ -87,6 +93,7 @@ export function Mode2Round({
 
   const handleBenchSwap = () => {
     if (isProcessing || lifelinesUsed.benchSwap) return;
+    playClick();
 
     // Find a replacement question not already in this round
     const allQuestions = activePlayer

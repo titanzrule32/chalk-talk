@@ -157,10 +157,10 @@
   },
   {
     "id": "m2-rookie-nba-013",
-    "question": "Which player scored 73 points in a single game in January 2024, the 4th most ever?",
+    "question": "Which Mavericks star scored 73 points in a single game against the Hawks in January 2024?",
     "options": ["Luka Doncic", "Kevin Durant", "Joel Embiid", "Stephen Curry"],
     "correct_answer": "Luka Doncic",
-    "explanation": "Luka Doncic scored 73 points against the Hawks - only Wilt Chamberlain has scored more in a game!",
+    "explanation": "Luka Doncic scored 73 points against the Hawks — only Wilt Chamberlain and Bam Adebayo have scored more in a game!",
     "league": "NBA",
     "season": "2023-24",
     "category": "records",
