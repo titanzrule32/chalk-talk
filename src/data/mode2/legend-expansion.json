@@ -313,10 +313,10 @@
   },
   {
     "id": "m2-legend-mls-025",
-    "question": "Which city is getting a brand-new MLS expansion team called San Diego FC, set to start play in 2025?",
+    "question": "Which Southern California city got a brand-new MLS expansion team that started play in 2025?",
     "options": ["San Diego", "Las Vegas", "Sacramento", "Phoenix"],
     "correct_answer": "San Diego",
-    "explanation": "San Diego FC is a new MLS expansion team that will begin playing in 2025, bringing top-level soccer to San Diego!",
+    "explanation": "San Diego FC is a new MLS expansion team that began playing in 2025, bringing top-level soccer to San Diego!",
     "league": "MLS",
     "season": "2024",
     "category": "expansion",

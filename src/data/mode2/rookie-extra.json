@@ -66,7 +66,7 @@
   },
   {
     "id": "m2-rookie-nfl-106",
-    "question": "Which animal is the mascot of the Philadelphia Eagles?",
+    "question": "What kind of bird is Swoop, the mascot of the Philadelphia NFL team?",
     "options": ["Eagle", "Hawk", "Falcon", "Owl"],
     "correct_answer": "Eagle",
     "explanation": "The Philadelphia Eagles mascot is named Swoop and he's a bald eagle!",
@@ -74,7 +74,7 @@
     "season": "2024-25",
     "category": "general",
     "tier": "rookie",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
@@ -209,7 +209,7 @@
   },
   {
     "id": "m2-rookie-nfl-117",
-    "question": "Which running back is known as 'King Henry'?",
+    "question": "Which NFL running back has a royal nickname because he runs over defenders like a powerful ruler?",
     "options": ["Derrick Henry", "Saquon Barkley", "Christian McCaffrey", "Nick Chubb"],
     "correct_answer": "Derrick Henry",
     "explanation": "Derrick Henry is called King Henry because he runs over defenders like a powerful king!",
@@ -217,7 +217,7 @@
     "season": "2024-25",
     "category": "players",
     "tier": "rookie",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
@@ -261,15 +261,15 @@
   },
   {
     "id": "m2-rookie-nfl-121",
-    "question": "What do the yellow lines on the field mark every 10 yards?",
-    "options": ["Yard lines", "Foul lines", "Sidelines", "Baselines"],
-    "correct_answer": "Yard lines",
-    "explanation": "The yard lines help players, coaches, and fans see how far the ball has moved down the field!",
+    "question": "How many players from one team are on the field at the same time in football?",
+    "options": ["11", "9", "12", "10"],
+    "correct_answer": "11",
+    "explanation": "Each team has 11 players on the field at a time, so there are 22 players total during a play!",
     "league": "NFL",
     "season": "2024-25",
     "category": "general",
     "tier": "rookie",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
@@ -1613,15 +1613,15 @@
   },
   {
     "id": "m2-rookie-nhl-120",
-    "question": "What sport was hockey's Stanley Cup originally made for?",
-    "options": ["Hockey", "Lacrosse", "Cricket", "Soccer"],
-    "correct_answer": "Hockey",
-    "explanation": "Lord Stanley of Preston donated the Cup in 1892 specifically for the best hockey team in Canada!",
+    "question": "What is the name of the trophy that NHL teams compete to win each season?",
+    "options": ["Stanley Cup", "Larry O'Brien Trophy", "Commissioner's Trophy", "Vince Lombardi Trophy"],
+    "correct_answer": "Stanley Cup",
+    "explanation": "The Stanley Cup is the most famous trophy in the NHL and teams dream of lifting it every year!",
     "league": "NHL",
     "season": "2024-25",
     "category": "championships",
     "tier": "rookie",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
@@ -1743,7 +1743,7 @@
   },
   {
     "id": "m2-rookie-nhl-130",
-    "question": "Which NHL team is named after a kraken sea monster?",
+    "question": "Which NHL team that joined the league in 2021 is named after a giant mythical sea creature?",
     "options": ["Seattle Kraken", "San Jose Sharks", "Tampa Bay Lightning", "Carolina Hurricanes"],
     "correct_answer": "Seattle Kraken",
     "explanation": "The Seattle Kraken joined the NHL in 2021 and are named after the mythical sea creature!",
@@ -1751,7 +1751,7 @@
     "season": "2024-25",
     "category": "general",
     "tier": "rookie",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
@@ -1886,15 +1886,15 @@
   },
   {
     "id": "m2-rookie-mls-106",
-    "question": "What is the kick from the penalty spot called?",
-    "options": ["Penalty kick", "Free kick", "Corner kick", "Goal kick"],
-    "correct_answer": "Penalty kick",
+    "question": "In soccer, how far away from the goal is the spot where a player takes a special one-on-one shot against the goalkeeper?",
+    "options": ["12 yards", "18 yards", "6 yards", "10 yards"],
+    "correct_answer": "12 yards",
     "explanation": "A penalty kick is taken from 12 yards away with only the goalkeeper to beat, so it's a great chance to score!",
     "league": "MLS",
     "season": "2024-25",
     "category": "general",
     "tier": "rookie",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
@@ -2705,20 +2705,20 @@
   },
   {
     "id": "m2-rookie-epl-134",
-    "question": "Which award is given to the best young player in the Premier League each season?",
-    "options": ["Young Player of the Season", "Rookie of the Year", "Golden Boy", "Rising Star"],
-    "correct_answer": "Young Player of the Season",
-    "explanation": "The Young Player of the Season award goes to the best player aged 23 or under!",
+    "question": "What color card does a referee show to send a player off the field for the rest of a match?",
+    "options": ["Red", "Yellow", "Blue", "Green"],
+    "correct_answer": "Red",
+    "explanation": "A red card means a player must leave the game right away, and their team plays with one fewer player!",
     "league": "Premier League",
     "season": "2024-25",
     "category": "awards",
     "tier": "rookie",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
     "id": "m2-rookie-epl-135",
-    "question": "Which city has teams called Liverpool FC and Everton FC?",
+    "question": "Which English city is home to two Premier League rivals who play the famous Merseyside Derby?",
     "options": ["Liverpool", "Manchester", "London", "Birmingham"],
     "correct_answer": "Liverpool",
     "explanation": "Liverpool and Everton both play in the city of Liverpool and their derby is called the Merseyside Derby!",
@@ -2726,7 +2726,7 @@
     "season": "2024-25",
     "category": "general",
     "tier": "rookie",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   }
 ]

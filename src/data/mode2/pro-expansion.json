@@ -1080,7 +1080,7 @@
   },
   {
     "id": "m2-pro-mls-034",
-    "question": "Which expansion team joined MLS in 2021 and plays in Austin, Texas?",
+    "question": "Which expansion team joined MLS in 2021 and plays in the capital city of Texas?",
     "options": ["Austin FC", "St. Louis City SC", "Charlotte FC", "Nashville SC"],
     "correct_answer": "Austin FC",
     "explanation": "Austin FC joined MLS in 2021 and quickly built a passionate fanbase in the Texas capital!",
@@ -1088,7 +1088,7 @@
     "season": "2024",
     "category": "general",
     "tier": "pro",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
@@ -1236,7 +1236,7 @@
   },
   {
     "id": "m2-pro-mls-046",
-    "question": "Which MLS team plays in a stadium named after a famous ketchup brand in Cincinnati?",
+    "question": "Which MLS expansion team from Ohio plays at TQL Stadium and has become one of the league's most popular clubs?",
     "options": ["FC Cincinnati", "Columbus Crew", "Chicago Fire", "Nashville SC"],
     "correct_answer": "FC Cincinnati",
     "explanation": "FC Cincinnati plays at TQL Stadium and has become one of the most popular expansion teams in MLS history!",
@@ -1244,20 +1244,20 @@
     "season": "2024",
     "category": "general",
     "tier": "pro",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
     "id": "m2-pro-mls-047",
-    "question": "What award is given to the MLS Rookie of the Year?",
-    "options": ["MLS Rookie of the Year Award", "Young Player Award", "Calder Trophy", "Rising Star Award"],
-    "correct_answer": "MLS Rookie of the Year Award",
-    "explanation": "This award goes to the best first-year player in MLS each season, celebrating young talent!",
+    "question": "Which MLS award is given to the best first-year player in the league each season?",
+    "options": ["Rookie of the Year", "Golden Boot", "Newcomer Award", "Rising Star"],
+    "correct_answer": "Rookie of the Year",
+    "explanation": "The Rookie of the Year award goes to the best first-year player in MLS each season, celebrating young talent!",
     "league": "MLS",
     "season": "2024",
     "category": "awards",
     "tier": "pro",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
@@ -1288,7 +1288,7 @@
   },
   {
     "id": "m2-pro-mls-050",
-    "question": "Which MLS team was saved from relocating after a huge fan campaign called 'Save the Crew'?",
+    "question": "Which MLS team from Ohio was almost moved to another city but was saved by a big fan campaign?",
     "options": ["Columbus Crew", "Houston Dynamo", "San Jose Earthquakes", "Real Salt Lake"],
     "correct_answer": "Columbus Crew",
     "explanation": "Fans rallied with the #SavetheCrew movement and successfully kept their beloved team in Columbus!",
@@ -1296,7 +1296,7 @@
     "season": "2024",
     "category": "moments",
     "tier": "pro",
-    "date_added": "2025-03-23",
+    "date_added": "2025-03-24",
     "source_year": 2024
   },
   {
